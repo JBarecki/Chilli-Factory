@@ -1,10 +1,5 @@
 /* ****************** MAIN PAGE *********************** */
 /* **************************************************** */
-<<<<<<< HEAD
-=======
-/* **************************************************** */
-/* **************************************************** */
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
 /* ****************** MAIN PAGE HEADER ************************** */
 @keyframes headerIn {
   0% {
@@ -58,11 +53,7 @@
     transform: translate(-100%, 0) rotate(45deg); }
   100% {
     transform: translate(0, 0) rotate(45deg); } }
-<<<<<<< HEAD
 @keyframes fertilizing {
-=======
-@keyframes gallery {
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
   0% {
     transform: translate(100%, 0) rotate(45deg); }
   100% {
@@ -146,7 +137,6 @@
     transform: translate(0, 0); }
   100% {
     transform: translate(0, 500%) scale(0.3); } }
-<<<<<<< HEAD
 /* ****************** GROWING ************************ */
 /* **************************************************** */
 /* **************************************************** */
@@ -388,8 +378,6 @@
     transform: translate(0, 0); }
   100% {
     transform: translate(0, 500%) scale(0.3); } }
-=======
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
 /* ****************** MAIN CLASSES ********************* */
 body {
   width: 100vw;
@@ -542,11 +530,7 @@ section {
   -webkit-filter: grayscale(0.1);
   filter: grayscale(0.1); }
 
-<<<<<<< HEAD
 .fertilizing {
-=======
-.gallery {
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
   z-index: 3;
   background-image: url("../images/spices1.jpg");
   -webkit-filter: grayscale(1);
@@ -554,11 +538,7 @@ section {
   background-size: cover;
   transition: 0.3s; }
 
-<<<<<<< HEAD
 .fertilizing:hover {
-=======
-.gallery:hover {
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
   z-index: 5;
   transform: scale(1.4) rotate(45deg);
   -webkit-filter: grayscale(0.1);
@@ -630,13 +610,8 @@ section {
 .aboutUsIn {
   animation: aboutUs 1s 1.8s ease-out backwards; }
 
-<<<<<<< HEAD
 .fertilizingIn {
   animation: fertilizing 1s 1.8s ease-out backwards; }
-=======
-.galleryIn {
-  animation: gallery 1s 1.8s ease-out backwards; }
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
 
 .growingIn {
   animation: growing 1s 1.8s ease-out backwards; }
@@ -817,17 +792,10 @@ footer {
   transform: scale(0.5); }
 
 .aboutUsFooterBack {
-<<<<<<< HEAD
   background-image: url("../images/paprika1.jpg");
   width: 12rem;
   height: 12rem;
   transform: rotate(45deg);
-=======
-  width: 12rem;
-  height: 12rem;
-  transform: rotate(45deg);
-  background-image: url("../images/paprika1.jpg");
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
   background-size: cover;
   margin: 0 auto;
   border: 0.8rem solid white; }
@@ -858,7 +826,6 @@ footer {
 .hide {
   display: none; }
 
-<<<<<<< HEAD
 /* ****************** GROWING *********************** */
 /* **************************************************** */
 /* ****************** GROWING HEADER ************************** */
@@ -1662,6 +1629,4 @@ textarea {
 .hide {
   display: none; }
 
-=======
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
 /*# sourceMappingURL=style2.css.map */

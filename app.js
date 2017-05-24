@@ -3,21 +3,14 @@ document.addEventListener('DOMContentLoaded', function(){
 
 // Menu elements
 let home = document.querySelector(".home");
-<<<<<<< HEAD
 let contact = document.querySelector(".contact");
 let aboutUs = document.querySelector(".aboutUs");
 let fertilizing = document.querySelector(".fertilizing");
-=======
-var contact = document.querySelector(".contact");
-let aboutUs = document.querySelector(".aboutUs");
-let gallery = document.querySelector(".gallery");
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
 let seeds = document.querySelector(".seeds");
 let growing = document.querySelector(".growing");
 let peppers = document.querySelector(".peppers");
 
 //Main page
-<<<<<<< HEAD
 let mainHeader = document.querySelector('.headerClass');
 let mainSectionMenu = document.querySelector('section');
 let mainFooter = document.querySelector('.footerContainer');
@@ -51,17 +44,6 @@ let fertilizingHeader = document.querySelector(".fertilizingHeader");
 let fertilizingSection = document.querySelector(".fertilizingSection");
 let fertilizingFooter = document.querySelector(".fertilizingFooter");
 let fertilizingFooterBack = document.querySelector(".fertilizingFooterBack");
-=======
-var mainHeader = document.querySelector('.headerClass');
-var mainSectionMenu = document.querySelector('section');
-var mainFooter = document.querySelector('.footerContainer');
-
-//About Us
-var aboutUsHeader = document.querySelector(".aboutUsHeader");
-var aboutUsSection = document.querySelector(".aboutUsSection");
-var aboutUsFooter = document.querySelector(".aboutUsFooter");
-var aboutUsFooterBack = document.querySelector(".aboutUsFooterBack");
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
 
 // main In/Out functions
 function mainPageIn() {
@@ -74,11 +56,7 @@ function mainPageIn() {
   mainSectionMenu.classList.toggle("hide");
      home.classList.add("sectionIn");
      contact.classList.add("contactIn");
-<<<<<<< HEAD
      fertilizing.classList.add("galleryIn");
-=======
-     gallery.classList.add("galleryIn");
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
      growing.classList.add("growingIn");
      seeds.classList.add("seedsIn");
      peppers.classList.add("peppersIn");
@@ -108,10 +86,6 @@ function mainPageOut() {
         }, 1100);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
 //Events
 aboutUs.addEventListener("click", function(){
   mainPageOut();
@@ -139,21 +113,13 @@ aboutUsFooterBack.addEventListener("click", function() {
      aboutUsHeader.classList.add("hide");
        }, 1100);
 
-<<<<<<< HEAD
   aboutUsSection.classList.remove("aboutUsSectionIn");
-=======
-  aboutUsSection.classList.remove("aboutUsSectionOn");
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
   aboutUsSection.classList.add("aboutUsSectionOut");
   setTimeout( function(){
     aboutUsSection.classList.add("hide");
       }, 1100);
 
-<<<<<<< HEAD
       aboutUsFooter.classList.remove("aboutUsFooterIn");
-=======
-      aboutUsFooter.classList.remove("aboutUsFooterOn");
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
       aboutUsFooter.classList.add("aboutUsFooterOut");
       setTimeout( function(){
         aboutUsFooter.classList.add("hide");
@@ -161,7 +127,6 @@ aboutUsFooterBack.addEventListener("click", function() {
 
           setTimeout( function(){
             mainPageIn();
-<<<<<<< HEAD
           }, 1100);
 });
 
@@ -337,15 +302,6 @@ fertilizingFooterBack.addEventListener("click", function() {
             mainPageIn();
           }, 1200);
 });
-=======
-          }, 1200);
-});
-
-
-
-
-
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
 
 
 }); // DOMContentLoaded

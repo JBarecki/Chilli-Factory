@@ -145,21 +145,13 @@ section {
   @include mainMenuelementsHover;
 }
 
-<<<<<<< HEAD
 .fertilizing{
-=======
-.gallery{
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
   z-index: 3;
   background-image: url("../images/spices1.jpg");
   @include mainMenuElements;
 }
 
-<<<<<<< HEAD
 .fertilizing:hover {
-=======
-.gallery:hover {
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
   @include mainMenuelementsHover;
 }
 
@@ -223,13 +215,8 @@ animation: sectionOut 1s 0s ease-out both;
   animation: aboutUs 1s 1.8s ease-out backwards;
 }
 
-<<<<<<< HEAD
 .fertilizingIn {
   animation: fertilizing 1s 1.8s ease-out backwards;
-=======
-.galleryIn {
-  animation: gallery 1s 1.8s ease-out backwards;
->>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
 }
 
 .growingIn {
