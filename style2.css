@@ -1,0 +1,1667 @@
+/* ****************** MAIN PAGE *********************** */
+/* **************************************************** */
+<<<<<<< HEAD
+=======
+/* **************************************************** */
+/* **************************************************** */
+>>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
+/* ****************** MAIN PAGE HEADER ************************** */
+@keyframes headerIn {
+  0% {
+    transform: scale(0.3) translate(0, -300%); }
+  100% {
+    transform: translate(0, 0); } }
+@keyframes headerOut {
+  0% {
+    transform: translate(0, 0) scale(1); }
+  100% {
+    transform: translate(0, -100%) scale(0.3); } }
+@keyframes headerLogoIn {
+  0% {
+    transform: translate(0, -250%) scale(0.7); }
+  100% {
+    transform: translate(0, 0) scale(1); } }
+@keyframes headerTextIn {
+  0% {
+    color: transparent; }
+  100% {
+    color: black; } }
+/* ****************** MENU ************************** */
+@keyframes contact {
+  0% {
+    transform: translate(300%, 0) rotate(45deg); }
+  100% {
+    transform: translate(0, 0) rotate(45deg); } }
+@keyframes peppers {
+  0% {
+    transform: translate(-300%, 0) rotate(45deg); }
+  100% {
+    transform: translate(0, 0) rotate(45deg); } }
+@keyframes growing {
+  0% {
+    transform: translate(-220%, 0) rotate(45deg); }
+  100% {
+    transform: translate(0, 0) rotate(45deg); } }
+@keyframes aboutUs {
+  0% {
+    transform: translate(220%, 0) rotate(45deg); }
+  100% {
+    transform: translate(0, 0) rotate(45deg); } }
+@keyframes home {
+  0% {
+    transform: scale(15) rotate(45deg);
+    border: 3rem solid black; }
+  100% {
+    transform: scale(1.4) rotate(225deg); } }
+@keyframes seeds {
+  0% {
+    transform: translate(-100%, 0) rotate(45deg); }
+  100% {
+    transform: translate(0, 0) rotate(45deg); } }
+<<<<<<< HEAD
+@keyframes fertilizing {
+=======
+@keyframes gallery {
+>>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
+  0% {
+    transform: translate(100%, 0) rotate(45deg); }
+  100% {
+    transform: translate(0, 0) rotate(45deg); } }
+@keyframes menuPeppersBefore {
+  0% {
+    transform: translate(400%, 0) scale(0.3); }
+  100% {
+    transform: translate(0, 0) scale(2.3) rotate(35deg); } }
+@keyframes menuPeppersAfter {
+  0% {
+    transform: translate(-400%, 0) scale(0.3); }
+  100% {
+    transform: translate(0, 0) scale(2.3) rotate(-35deg); } }
+@keyframes sectionOut {
+  0% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(100%, 0); } }
+/* ****************** MAIN PAGE FOOTER ************************** */
+@keyframes footerIn {
+  0% {
+    transform: scale(0.4) translate(0, 220%) rotate(180deg); }
+  100% {
+    transform: scale(1.3) translate(0, 25%) rotate(180deg); } }
+@keyframes footerOut {
+  0% {
+    transform: scale(1.3) translate(0, 0) rotate(180deg); }
+  100% {
+    transform: scale(0.2) translate(0, -300%) rotate(180deg); } }
+/* ****************** ABOUT US ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+/* *************** ABOUT US HEADER ******************** */
+@keyframes aboutUsHeaderIn {
+  0% {
+    transform: translate(0, 300%) scale(0.2); }
+  100% {
+    transform: translate(0, -50%) scale(1.9); } }
+@keyframes aboutUsTitleTextIn {
+  0% {
+    color: transparent; }
+  100% {
+    color: black; } }
+@keyframes aboutUsHeaderOut {
+  0% {
+    transform: translate(0, -50%) scale(1.9); }
+  100% {
+    transform: translate(0, -300%) scale(0.3); } }
+/* *************** ABOUT US SECTION ******************** */
+@keyframes aboutUsSectionIn {
+  0% {
+    transform: translate(350%, 0); }
+  100% {
+    transform: translate(0, -48%); } }
+@keyframes aboutUsSectionOut {
+  0% {
+    transform: translate(0, -48%); }
+  100% {
+    transform: translate(-300%, 0); } }
+/* *************** ABOUT US FOOTER ******************** */
+@keyframes aboutUsFooterIn {
+  0% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(0, -90%) scale(0.65); } }
+@keyframes aboutUsFooterBackIn {
+  0% {
+    transform: translate(0, 0) scale(1); }
+  50% {
+    transform: translate(200%, -400%) scale(20) rotate(180deg);
+    background-image: url("../images/paprika1.jpg");
+    background-size: cover; }
+  100% {
+    transform: translate(0, 0) scale(0.6) rotate(-45deg);
+    background-image: none;
+    background-color: red; } }
+@keyframes aboutUsFooterOut {
+  0% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(0, 500%) scale(0.3); } }
+<<<<<<< HEAD
+/* ****************** GROWING ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+/* *************** GROWING HEADER ******************** */
+/* *************** GROWING SECTION ******************** */
+@keyframes growingSectionIn {
+  0% {
+    transform: translate(300%, 0); }
+  100% {
+    transform: translate(0, -60%); } }
+@keyframes growingSectionOut {
+  0% {
+    transform: translate(0, -60%); }
+  100% {
+    transform: translate(300%, -60%); } }
+@keyframes growingMiddleImageIn {
+  0% {
+    transform: translate(0, 30%) scale(0); }
+  100% {
+    transform: translate(0, 0) scale(1); } }
+@keyframes growingColumnImageLeftIn {
+  0% {
+    transform: translate(-500%, 0) rotate(235deg); }
+  100% {
+    transform: translate(0, 0) rotate(45deg); } }
+@keyframes growingColumnImageRightIn {
+  0% {
+    transform: translate(500%, 0) rotate(235deg); }
+  100% {
+    transform: translate(0, 0) rotate(45deg); } }
+/* *************** GROWING FOOTER ******************** */
+@keyframes growingFooterIn {
+  0% {
+    transform: translate(0, 0);
+    background-color: blue; }
+  100% {
+    transform: translate(0.5%, 300%) scale(0.75);
+    background-color: red; } }
+@keyframes growingFooterBackIn {
+  0% {
+    transform: translate(0, 0) scale(1);
+    color: transparent; }
+  50% {
+    transform: translate(200%, -400%) scale(20) rotate(180deg);
+    background-image: url("../images/habaneros1.jpg");
+    background-size: cover; }
+  100% {
+    transform: translate(0, 0) scale(0.6) rotate(-45deg);
+    background-image: none;
+    background-color: red;
+    color: white; } }
+@keyframes growingFooterOut {
+  0% {
+    transform: translate(300%, 0); }
+  100% {
+    transform: translate(0, -50%); } }
+/* ****************** PEPPERS ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+/* *************** PEPPERS HEADER ******************** */
+@keyframes peppersHeaderIn {
+  0% {
+    transform: translate(200%, -50%) scale(0.1); }
+  100% {
+    transform: translate(0, -50%) scale(1.9); } }
+@keyframes peppersTitleTextIn {
+  0% {
+    color: transparent; }
+  100% {
+    color: black; } }
+@keyframes peppersHeaderOut {
+  0% {
+    transform: translate(0, -50%) scale(1.9); }
+  100% {
+    transform: translate(0, -300%) scale(0.3); } }
+/* *************** PEPPERS SECTION ******************** */
+@keyframes peppersSectionIn {
+  0% {
+    transform: translate(-200%, 200%); }
+  100% {
+    transform: translate(0, 0); } }
+@keyframes peppersSectionOut {
+  0% {
+    transform: translate(0, -48%); }
+  100% {
+    transform: translate(-300%, 0); } }
+/* *************** PEPPERS FOOTER ******************** */
+@keyframes peppersFooterIn {
+  0% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(0, -90%) scale(0.65); } }
+@keyframes peppersFooterBackIn {
+  0% {
+    transform: translate(0, 0) scale(1); }
+  50% {
+    transform: translate(200%, -400%) scale(20) rotate(180deg);
+    background-image: url("../images/paprika1.jpg");
+    background-size: cover; }
+  100% {
+    transform: translate(0, 0) scale(0.6) rotate(-45deg);
+    background-image: none;
+    background-color: red; } }
+@keyframes peppersFooterOut {
+  0% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(0, 500%) scale(0.3); } }
+/* ****************** CONTACT ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+/* *************** CONTACT HEADER ******************** */
+@keyframes contactHeaderIn {
+  0% {
+    transform: translate(-300%, 300%) scale(0.2); }
+  100% {
+    transform: translate(0, -50%) scale(1.8); } }
+@keyframes contactTitleTextIn {
+  0% {
+    color: transparent; }
+  100% {
+    color: black; } }
+@keyframes contactHeaderOut {
+  0% {
+    transform: translate(0, -50%) scale(1.9); }
+  100% {
+    transform: translate(0, -300%) scale(0.3); } }
+/* *************** CONTACT SECTION ******************** */
+@keyframes contactSectionIn {
+  0% {
+    transform: translate(250%, -250%); }
+  100% {
+    transform: translate(0, -50%); } }
+@keyframes contactSectionOut {
+  0% {
+    transform: translate(0, -48%); }
+  100% {
+    transform: translate(-300%, 0); } }
+/* *************** CONTACT FOOTER ******************** */
+@keyframes contactFooterIn {
+  0% {
+    transform: translate(0, 0) rotate(180deg); }
+  100% {
+    transform: translate(0, -40%) rotate(180deg) scale(1.2); } }
+@keyframes contactFooterBackIn {
+  0% {
+    transform: translate(0, 0) scale(1); }
+  50% {
+    transform: translate(200%, -400%) scale(20);
+    background-image: url("../images/paprika1.jpg");
+    background-size: cover; }
+  100% {
+    transform: translate(0, 0) scale(0.6) rotate(180deg);
+    background-image: none;
+    background-color: red; } }
+@keyframes contactFooterOut {
+  0% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(0, 500%) scale(0.3); } }
+/* ****************** FERTILIZING ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+/* *************** FERTILIZING HEADER ******************** */
+@keyframes fertilizingHeaderIn {
+  0% {
+    transform: translate(-200%, -50%) scale(0.2); }
+  100% {
+    transform: translate(0, -60%) scale(1.55); } }
+@keyframes fertilizingTitleTextIn {
+  0% {
+    color: transparent; }
+  100% {
+    color: black; } }
+@keyframes fertilizingHeaderOut {
+  0% {
+    transform: translate(0, -50%) scale(1.9); }
+  100% {
+    transform: translate(0, -300%) scale(0.3); } }
+/* *************** FERTILIZING SECTION ******************** */
+@keyframes fertilizingSectionIn {
+  0% {
+    transform: translate(0, -400%); }
+  100% {
+    transform: translate(0, -63%); } }
+@keyframes fertilizingSectionOut {
+  0% {
+    transform: translate(0, -48%); }
+  100% {
+    transform: translate(-300%, 0); } }
+@keyframes fertilizingUnderImagePeppersIn {
+  0% {
+    transform: translate(0, -80%) scale(0); }
+  100% {
+    transform: translate(0, 0) scale(1.15); } }
+@keyframes fertilizingColumnImage1In {
+  0% {
+    transform: translate(0, -600%) scale(0) rotate(235deg); }
+  100% {
+    transform: translate(0, 0) scale(1) rotate(45deg); } }
+@keyframes fertilizingColumnImage2In {
+  0% {
+    transform: translate(-600%, 0) scale(0) rotate(235deg); }
+  100% {
+    transform: translate(0, 0) scale(1) rotate(45deg); } }
+@keyframes fertilizingColumnImage3In {
+  0% {
+    transform: translate(0, 600%) scale(0) rotate(235deg); }
+  100% {
+    transform: translate(0, 0) scale(1) rotate(45deg); } }
+@keyframes fertilizingColumnImage4In {
+  0% {
+    transform: translate(600%, 0) scale(0) rotate(235deg); }
+  100% {
+    transform: translate(0, 0) scale(1) rotate(45deg); } }
+/* *************** FERTILIZING FOOTER ******************** */
+@keyframes fertilizingFooterIn {
+  0% {
+    transform: translate(0, 150%); }
+  100% {
+    transform: translate(0, 60%) scale(0.65); } }
+@keyframes fertilizingFooterBackIn {
+  0% {
+    transform: translate(0, 0) scale(1); }
+  50% {
+    transform: translate(100%, 100%) scale(22) rotate(180deg);
+    background-image: url("../images/paprika1.jpg");
+    background-size: cover; }
+  100% {
+    transform: translate(0, 0) scale(0.7) rotate(-45deg);
+    background-image: none;
+    background-color: red; } }
+@keyframes fertilizingFooterOut {
+  0% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(0, 500%) scale(0.3); } }
+=======
+>>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
+/* ****************** MAIN CLASSES ********************* */
+body {
+  width: 100vw;
+  height: 100vh; }
+
+/* ****************** HEADER *********************** */
+/* *************** HEADER CLASSES ***************** */
+header {
+  width: 100%;
+  height: 40%;
+  position: relative; }
+
+.headerContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+  position: relative; }
+
+.logo {
+  width: 55%;
+  height: 55%;
+  margin: 0 auto;
+  position: absolute;
+  top: 6%;
+  left: 22%;
+  z-index: 2;
+  background-image: url("../images/logo1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: headerLogoIn 1.3s 2s ease-out both; }
+
+.headerText {
+  width: 32%;
+  font-family: 'Passion One', sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.1em;
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  margin: 0 auto;
+  margin-bottom: 20%;
+  z-index: 1;
+  position: absolute;
+  top: 69%;
+  left: 34%;
+  animation: headerTextIn 3s 3s ease-out both; }
+
+/* ************ HEADER ANIMATION CLASSES **************** */
+.headerIn {
+  animation: headerIn 1.5s 0.5s ease-out both; }
+
+.headerOut {
+  animation: headerOut 1.5s 0.1s ease-out backwards; }
+
+/* ****************** SECTION ************************ */
+/* *************** SECTION CLASSES ***************** */
+section {
+  width: 100%;
+  height: 20%; }
+
+.menuPeppersBefore {
+  background-image: url("../images/ChilliTloLeft1.jpg");
+  z-index: 0;
+  width: 10rem;
+  height: 10rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  animation: menuPeppersBefore 1.2s 2.6s ease-out both; }
+
+.menuPeppersAfter {
+  background-image: url("../images/ChilliTloRight1.jpg");
+  z-index: 0;
+  width: 10rem;
+  height: 10rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  animation: menuPeppersAfter 1.2s 2.6s ease-out both; }
+
+.menuMain {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  margin-top: 4%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.menuElement {
+  width: 9.5rem;
+  height: 9.5rem;
+  background-color: black;
+  border: 0.8rem solid white;
+  transform: rotate(45deg);
+  transition: 0.4s; }
+
+.menuText {
+  width: 100%;
+  height: 100%;
+  font-family: 'Passion One', sans-serif;
+  color: transparent;
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  transform: rotate(-45deg);
+  z-index: 0;
+  transition: 0.4s;
+  position: relative;
+  top: 2.7rem;
+  left: 2.4rem; }
+
+.menuText:hover {
+  position: relative;
+  color: white;
+  text-shadow: 0.2rem 0.3rem 0.5rem black; }
+
+.contact {
+  z-index: 2;
+  background-image: url("../images/jalapenos1.jpg");
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  background-size: cover;
+  transition: 0.3s; }
+
+.contact:hover {
+  z-index: 5;
+  transform: scale(1.4) rotate(45deg);
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1); }
+
+.aboutUs {
+  z-index: 2;
+  background-image: url("../images/paprika1.jpg");
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  background-size: cover;
+  transition: 0.3s; }
+
+.aboutUs:hover {
+  z-index: 5;
+  transform: scale(1.4) rotate(45deg);
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1); }
+
+<<<<<<< HEAD
+.fertilizing {
+=======
+.gallery {
+>>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
+  z-index: 3;
+  background-image: url("../images/spices1.jpg");
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  background-size: cover;
+  transition: 0.3s; }
+
+<<<<<<< HEAD
+.fertilizing:hover {
+=======
+.gallery:hover {
+>>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
+  z-index: 5;
+  transform: scale(1.4) rotate(45deg);
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1); }
+
+.home {
+  z-index: 4;
+  background-image: url("../images/habaneros1.jpg");
+  background-size: cover;
+  transition: 0.3s;
+  transform: rotate(45deg) scale(1.5);
+  animation: home 1s 0.1s ease-out both; }
+
+.seeds {
+  z-index: 3;
+  background-image: url("../images/pepperoni1.jpg");
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  background-size: cover;
+  transition: 0.3s; }
+
+.seeds:hover {
+  z-index: 5;
+  transform: scale(1.4) rotate(45deg);
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1); }
+
+.growing {
+  z-index: 2;
+  background-image: url("../images/habaneros1.jpg");
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  background-size: cover;
+  transition: 0.3s; }
+
+.growing:hover {
+  z-index: 5;
+  transform: scale(1.4) rotate(45deg);
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1); }
+
+.peppers {
+  z-index: 1;
+  background-image: url("../images/paprika1.jpg");
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  background-size: cover;
+  transition: 0.3s; }
+
+.peppers:hover {
+  z-index: 5;
+  transform: scale(1.4) rotate(45deg);
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1); }
+
+/* ************* SECTION ANIMATION CLASSES ************* */
+.sectionOut {
+  animation: sectionOut 1s 0s ease-out both; }
+
+.peppersIn {
+  animation: peppers 1s 1.8s ease-out backwards; }
+
+.contactIn {
+  animation: contact 1s 1.8s ease-out backwards; }
+
+.seedsIn {
+  animation: seeds 1s 1.8s ease-out backwards; }
+
+.aboutUsIn {
+  animation: aboutUs 1s 1.8s ease-out backwards; }
+
+<<<<<<< HEAD
+.fertilizingIn {
+  animation: fertilizing 1s 1.8s ease-out backwards; }
+=======
+.galleryIn {
+  animation: gallery 1s 1.8s ease-out backwards; }
+>>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
+
+.growingIn {
+  animation: growing 1s 1.8s ease-out backwards; }
+
+/* ****************** FOOTER ********************** */
+/* *************** FOOTER CLASSES ***************** */
+footer {
+  width: 100%;
+  height: 20%;
+  position: relative; }
+
+.footerContainer {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(180deg); }
+
+/* *************** FOOTER ANIMATION CLASSES ************ */
+.footerIn {
+  animation: footerIn 1.7s 0.8s ease-out both; }
+
+.footerOut {
+  animation: footerOut 3s 0s ease-out backwards; }
+
+/* ****************** HIDE *************************** */
+.hide {
+  display: none; }
+
+/* ****************** ABOUT US HEADER *************************** */
+.aboutUsHeader {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.aboutUsTitle {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: black;
+  font-weight: 900;
+  z-index: 3;
+  text-align: center;
+  transform: translate(0, 15%); }
+
+.aboutUsHeaderPeppers {
+  width: 6rem;
+  height: 5rem;
+  transform: rotate(45deg);
+  background-image: url("../images/logoPeppers.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  z-index: 1;
+  transform: translate(0, -55%); }
+
+.aboutUsTitleText {
+  font-family: 'Passion One', sans-serif;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  z-index: 3;
+  transform: translate(0, -115%); }
+
+/* *********** ABOUT US HEADER ANIMATION CLASSES ***************** */
+.aboutUsHeaderIn {
+  animation: aboutUsHeaderIn 2.3s 0.7s ease-out both; }
+
+.aboutUsTitleTextIn {
+  animation: aboutUsTitleTextIn 2s 3.2s ease-out both; }
+
+.aboutUsHeaderOut {
+  animation: aboutUsHeaderOut 1.3s 0.2s ease-out both; }
+
+/* ****************** ABOUT US SECTION **************************** */
+.aboutUsSection {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.aboutUsColumnText {
+  font-family: 'Passion One', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.7rem;
+  color: black;
+  font-weight: 300;
+  text-align: justify;
+  float: left;
+  z-index: 3; }
+
+.aboutUsColumn1Title {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  margin: 0 auto;
+  transform: translate(0, -85%); }
+
+.aboutUsColumnRed {
+  width: 15%;
+  height: 0.8rem;
+  background-color: red;
+  margin: 0 auto;
+  position: absolute;
+  top: 3%;
+  left: 41%; }
+
+.aboutUsColumn {
+  width: 20%;
+  height: 100%;
+  margin: 3%;
+  position: relative; }
+
+.aboutUsColumn1Image {
+  width: 9rem;
+  height: 9rem;
+  transform: rotate(45deg);
+  background-size: cover;
+  margin: 15%;
+  z-index: 0;
+  bottom: 83%;
+  left: -21%; }
+
+.aboutUsColumn2Image {
+  width: 9rem;
+  height: 9rem;
+  transform: rotate(45deg);
+  background-size: cover;
+  position: absolute;
+  bottom: 83%;
+  left: -21%;
+  z-index: 2; }
+
+.aboutUsColumn3Image {
+  width: 9rem;
+  height: 9rem;
+  transform: rotate(45deg);
+  background-size: cover;
+  position: absolute;
+  bottom: 83%;
+  left: -21%;
+  z-index: 2; }
+
+/* *********** ABOUT US SECTION ANIMATION CLASSES ************** */
+.aboutUsSectionIn {
+  animation: aboutUsSectionIn 1.4s 1.6s ease-out both; }
+
+.aboutUsSectionOut {
+  animation: aboutUsSectionOut 1.3s 0.2s ease-out both; }
+
+/* ****************** FOOTER ******************************** */
+.aboutUsFooter {
+  width: 100%;
+  height: 25%;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolue;
+  bottom: 11%;
+  transform: scale(0.5); }
+
+.aboutUsFooterBack {
+<<<<<<< HEAD
+  background-image: url("../images/paprika1.jpg");
+  width: 12rem;
+  height: 12rem;
+  transform: rotate(45deg);
+=======
+  width: 12rem;
+  height: 12rem;
+  transform: rotate(45deg);
+  background-image: url("../images/paprika1.jpg");
+>>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
+  background-size: cover;
+  margin: 0 auto;
+  border: 0.8rem solid white; }
+
+.aboutUsFooterBackText {
+  font-family: 'Passion One', sans-serif;
+  font-size: 3.7rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 2px 9px black;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 4.2rem;
+  left: 2.4rem; }
+
+/* ************ ABOUT US FOOTER ANIMATION CLASSES ************* */
+.aboutUsFooterIn {
+  animation: aboutUsFooterIn 1.5s 2s ease-out both; }
+
+.aboutUsFooterBackIn {
+  animation: aboutUsFooterBackIn 2.5s 0.1s ease-out both; }
+
+.aboutUsFooterOut {
+  animation: aboutUsFooterOut 1.3s 0.2s ease-out both; }
+
+/* ****************** OUT ANIMATIONS **************************** */
+.hide {
+  display: none; }
+
+<<<<<<< HEAD
+/* ****************** GROWING *********************** */
+/* **************************************************** */
+/* ****************** GROWING HEADER ************************** */
+.growingHeader {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.growingTitle {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: black;
+  font-weight: 900;
+  z-index: 3;
+  text-align: center;
+  transform: translate(0, 15%); }
+
+.growingHeaderPeppers {
+  width: 6rem;
+  height: 5rem;
+  transform: rotate(45deg);
+  background-image: url("../images/logoPeppers.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  z-index: 1;
+  transform: translate(0, -55%); }
+
+.growingTitleText {
+  font-family: 'Passion One', sans-serif;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  z-index: 3;
+  transform: translate(0, -115%);
+  position: absolute;
+  top: 41%;
+  left: 37.5%; }
+
+/* ********** GROWING HEADER ANIMATION CLASSES **************** */
+.growingHeaderIn {
+  animation: aboutUsHeaderIn 2.3s 0.7s ease-out both; }
+
+.growingHeaderOut {
+  animation: aboutUsHeaderOut 1.3s 0.2s ease-out both; }
+
+.growingTitleTextIn {
+  animation: aboutUsTitleTextIn 2s 3.2s ease-out both; }
+
+/* ****************** GROWING SECTION ************************** */
+.growingSection {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.growinDescritpionColumn {
+  width: 100%;
+  height: 50%;
+  position: relative; }
+
+.growingSectionTitle {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2.5rem;
+  border-bottom: 0.45rem solid red;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem; }
+
+/* ****************** GROWING SECTION LEFT ************************** */
+.growingSectionLeft {
+  height: 100%;
+  width: 37%; }
+
+.growingColumnImage1 {
+  background-image: url("../images/keramz.jpg");
+  width: 9rem;
+  height: 9rem;
+  border: 0.5rem solid white;
+  transform: rotate(45deg);
+  background-size: cover;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  bottom: 27%;
+  left: 83%;
+  z-index: 2; }
+
+.growingColumnImage2 {
+  background-image: url("../images/soil.jpg");
+  width: 9rem;
+  height: 9rem;
+  border: 0.5rem solid white;
+  transform: rotate(45deg);
+  background-size: cover;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  bottom: 27%;
+  left: 83%;
+  z-index: 2; }
+
+.growingColumnTextLeft {
+  width: 60%;
+  height: 100%;
+  font-family: 'Passion One', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75rem;
+  color: black;
+  font-weight: 300;
+  z-index: 4;
+  display: inline;
+  text-align: right;
+  float: left;
+  position: absolute;
+  left: 16%; }
+
+.growingUnderImageLeft {
+  width: 6rem;
+  height: 6rem;
+  transform: rotate(45deg);
+  background-size: cover;
+  display: inline-block;
+  float: left;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 39%;
+  left: 75%; }
+
+/* ****************** GROWING SECTION MIDDLE ************************** */
+.growingSectionMiddle {
+  height: 100%;
+  width: 26%;
+  position: relative; }
+
+.growingMiddleImage {
+  height: 96%;
+  width: 100%;
+  background-image: url("../images/potPepper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+  position: absolute;
+  left: -1%; }
+
+/* ******** GROWING SECTION MIDDLE  ANIMATION CLASSES ***************** */
+.growingMiddleImageIn {
+  animation: growingMiddleImageIn 1s 3.5s ease-out both; }
+
+/* ****************** GROWING SECTION RIGHT ************************** */
+.growingSectionRight {
+  height: 100%;
+  width: 37%; }
+
+.growingColumnImage3 {
+  background-image: url("../images/vermi.jpg");
+  width: 9rem;
+  height: 9rem;
+  border: 0.5rem solid white;
+  transform: rotate(45deg);
+  background-size: cover;
+  display: inline-block;
+  float: left;
+  z-index: 3;
+  position: absolute;
+  bottom: 28%;
+  left: -3%; }
+
+.growingColumnImage4 {
+  background-image: url("../images/cocoPeat.jpg");
+  width: 9rem;
+  height: 9rem;
+  border: 0.5rem solid white;
+  transform: rotate(45deg);
+  background-size: cover;
+  display: inline-block;
+  float: left;
+  z-index: 3;
+  position: absolute;
+  bottom: 28%;
+  left: -3%; }
+
+.growingUnderImageRight {
+  width: 6rem;
+  height: 6rem;
+  transform: rotate(45deg);
+  background-size: cover;
+  display: inline-block;
+  float: left;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 41%;
+  left: 15%; }
+
+.growingColumnTextRight {
+  width: 60%;
+  height: 100%;
+  font-family: 'Passion One', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75rem;
+  color: black;
+  font-weight: 300;
+  z-index: 4;
+  display: inline;
+  text-align: left;
+  float: left;
+  position: absolute;
+  left: 25%; }
+
+/* ********** GROWING SECTION ANIMATION CLASSES **************** */
+.growingSectionIn {
+  animation: growingSectionIn 1.4s 1s ease-out both; }
+
+.growingSectionOut {
+  animation: growingSectionOut 1.5s 0.1s ease-out both; }
+
+.growingColumnImage1In {
+  animation: growingColumnImageLeftIn 1s 2.5s ease-out both; }
+
+.growingColumnImage2In {
+  animation: growingColumnImageLeftIn 1.3s 3s ease-out both; }
+
+.growingColumnImage3In {
+  animation: growingColumnImageRightIn 1s 2.5s ease-out both; }
+
+.growingColumnImage4In {
+  animation: growingColumnImageRightIn 1.3s 3s ease-out both; }
+
+/* ****************** GROWING FOOTER ************************** */
+.growingFooter {
+  width: 100%;
+  height: 25%;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -25%;
+  left: 1%;
+  transform: scale(0.5); }
+
+.growingFooterBack {
+  background-image: url("../images/habaneros1.jpg");
+  width: 12rem;
+  height: 12rem;
+  transform: rotate(45deg);
+  background-size: cover;
+  margin: 0 auto;
+  border: 0.8rem solid white; }
+
+.growingFooterBackText {
+  font-family: 'Passion One', sans-serif;
+  font-size: 3.7rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 2px 9px black;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 4.2rem;
+  left: 2.4rem; }
+
+/* ********** GROWING FOOTER CLASSES **************** */
+.growingFooterIn {
+  animation: growingFooterIn 1.5s 1s ease-out both; }
+
+.growingFooterBackIn {
+  animation: growingFooterBackIn 2.5s 0.1s ease-out both; }
+
+.growingFooterOut {
+  animation: growingFooterOut 1.3s 0.2s ease-out both; }
+
+/* ******************* HIDE **************************** */
+.hide {
+  display: none; }
+
+/* ******************  CONTACT HEADER *************************** */
+.contactHeader {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.contactTitle {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: black;
+  font-weight: 900;
+  z-index: 3;
+  text-align: center;
+  transform: translate(0, 15%); }
+
+.contactHeaderPeppers {
+  width: 6rem;
+  height: 5rem;
+  transform: rotate(45deg);
+  background-image: url("../images/logoPeppers.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  z-index: 1;
+  transform: translate(0, -55%); }
+
+.contactTitleText {
+  font-family: 'Passion One', sans-serif;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  z-index: 3;
+  transform: translate(0, -115%); }
+
+/* *************  CONTACT HEADER ANIMATION CLASSES ************** */
+.contactHeaderIn {
+  animation: contactHeaderIn 2.3s 0.7s ease-out both; }
+
+.contactHeaderOut {
+  animation: contactHeaderOut 1.3s 0.2s ease-out both; }
+
+.contactTitleTextIn {
+  animation: contactTitleTextIn 2s 3.2s ease-out both; }
+
+/* ******************  CONTACT SECTION *************************** */
+.contactSection {
+  width: 100%;
+  height: 55%;
+  position: relative; }
+
+.contactSectionLeft {
+  width: 36%;
+  margin: 2%;
+  display: inline;
+  float: left; }
+
+.contactSectionRight {
+  width: 35%;
+  margin: 2%;
+  display: inline;
+  float: left; }
+
+input {
+  width: 100%;
+  height: 3.6rem;
+  display: inline;
+  border: 3px solid red;
+  font-family: 'Passion One', sans-serif;
+  letter-spacing: 0.1em;
+  margin-bottom: 3.5%;
+  color: lightgrey;
+  font-size: 1.8rem;
+  font-weight: 300; }
+
+textarea {
+  width: 100%;
+  height: 20rem;
+  font-size: 1.8rem;
+  border: 3px solid red;
+  color: lightgrey;
+  font-family: 'Passion One', sans-serif;
+  display: inline; }
+
+.contactButon {
+  width: 16rem;
+  height: 3.5rem;
+  background-color: red;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Passion One', sans-serif;
+  font-weight: 500;
+  margin: 0 auto;
+  position: absolute;
+  top: 52.5%; }
+
+.contactSectionImage {
+  background-image: url("../images/chillis3.jpg");
+  width: 16rem;
+  height: 16rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 3%;
+  left: 78%; }
+
+/* *************  CONTACT SECTION ANIMATION CLASSES ************** */
+.contactSectionIn {
+  animation: contactSectionIn 1.4s 1.6s ease-out both; }
+
+.contactSectionOut {
+  animation: contactSectionOut 1.3s 0.2s ease-out both; }
+
+/* ******************  CONTACT FOOTER *************************** */
+.contactFooter {
+  width: 100%;
+  height: 25%;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -9%;
+  transform: scale(0.5); }
+
+.contactFooterBack {
+  background-image: url("../images/habaneros1.jpg");
+  width: 12rem;
+  height: 12rem;
+  transform: rotate(45deg);
+  background-size: cover;
+  margin: 0 auto;
+  border: 0.8rem solid white; }
+
+.contactFooterBackText {
+  font-family: 'Passion One', sans-serif;
+  font-size: 3.7rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 2px 9px black;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 4.2rem;
+  left: 2.4rem; }
+
+/* *************  CONTACT FOOTER ANIMATION CLASSES ************** */
+.contactFooterIn {
+  animation: contactFooterIn 1.5s 2s ease-out both; }
+
+.contactFooterBackIn {
+  animation: contactFooterBackIn 2.5s 0.1s ease-out both; }
+
+.contactFooterOut {
+  animation: contactFooterOut 1.3s 0.2s ease-out both; }
+
+/* ******************  PEPPERS HEADER *************************** */
+.peppersHeader {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.peppersTitle {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: black;
+  font-weight: 900;
+  z-index: 3;
+  text-align: center;
+  transform: translate(0, 15%); }
+
+.peppersHeaderPeppers {
+  width: 6rem;
+  height: 5rem;
+  transform: rotate(45deg);
+  background-image: url("../images/logoPeppers.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  z-index: 1;
+  transform: translate(0, -55%); }
+
+.peppersTitleText {
+  font-family: 'Passion One', sans-serif;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  z-index: 3;
+  transform: translate(0, -115%); }
+
+/* *************  PEPPERS HEADER ANIMATION CLASSES ************** */
+.peppersHeaderIn {
+  animation: peppersHeaderIn 2.3s 0.7s ease-out both; }
+
+.peppersHeaderOut {
+  animation: peppersHeaderOut 1.3s 0.2s ease-out both; }
+
+.peppersTitleTextIn {
+  animation: peppersTitleTextIn 2s 3.2s ease-out both; }
+
+/* ******************  PEPPERS SECTION *************************** */
+.peppersSection {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(255, 0, 0, 0.3); }
+
+/* *************  PEPPERS SECTION ANIMATION CLASSES ************** */
+.peppersSectionIn {
+  animation: peppersSectionIn 1.4s 1.6s ease-out both; }
+
+.peppersSectionOut {
+  animation: peppersSectionOut 1.3s 0.2s ease-out both; }
+
+/* ******************  PEPPERS FOOTER *************************** */
+.peppersFooter {
+  width: 100%;
+  height: 25%;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 11%;
+  transform: scale(0.5); }
+
+.peppersFooterBack {
+  background-image: url("../images/habaneros1.jpg");
+  width: 12rem;
+  height: 12rem;
+  transform: rotate(45deg);
+  background-size: cover;
+  margin: 0 auto;
+  border: 0.8rem solid white; }
+
+.peppersFooterBackText {
+  font-family: 'Passion One', sans-serif;
+  font-size: 3.7rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 2px 9px black;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 4.2rem;
+  left: 2.4rem; }
+
+/* *************  PEPPERS FOOTER ANIMATION CLASSES ************** */
+.growingFooterIn {
+  animation: peppersFooterIn 1.5s 1s ease-out both; }
+
+.growingFooterBackIn {
+  animation: peppersFooterBackIn 2.5s 0.1s ease-out both; }
+
+.growingFooterOut {
+  animation: peppersFooterOut 1.3s 0.2s ease-out both; }
+
+/* ******************  FERTILIZING HEADER *************************** */
+.fertilizingHeader {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.fertilizingTitle {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: black;
+  font-weight: 900;
+  z-index: 3;
+  text-align: center;
+  transform: translate(0, 15%); }
+
+.fertilizingHeaderPeppers {
+  width: 6rem;
+  height: 5rem;
+  transform: rotate(45deg);
+  background-image: url("../images/logoPeppers.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  z-index: 1;
+  transform: translate(0, -55%); }
+
+.fertilizingTitleText {
+  font-family: 'Passion One', sans-serif;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  z-index: 3;
+  transform: translate(0, -115%); }
+
+/* *************  FERTILIZING HEADER ANIMATION CLASSES ************** */
+.fertilizingHeaderIn {
+  animation: fertilizingHeaderIn 2s 1.2s ease-out both; }
+
+.fertilizingHeaderOut {
+  animation: fertilizingHeaderOut 1.3s 0.2s ease-out both; }
+
+.fertilizingTitleTextIn {
+  animation: fertilizingTitleTextIn 2s 3.2s ease-out both; }
+
+/* ******************  FERTILIZING SECTION *************************** */
+.fertilizingSection {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; }
+
+.fertilizingColumn {
+  width: 23%;
+  height: 100%;
+  position: relative; }
+
+.fertilizingColumnTitle {
+  width: 85%;
+  font-family: 'Passion One', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  margin: 0 auto; }
+
+.fertilizingColumnSubtitle {
+  font-size: 2rem; }
+
+.fertilizingColumnText {
+  width: 85%;
+  height: 40%;
+  margin: 0 auto;
+  font-family: 'Passion One', sans-serif;
+  font-size: 1.35rem;
+  line-height: 1.5rem;
+  color: black;
+  font-weight: 300;
+  text-align: center;
+  position: absolute;
+  top: 67%;
+  left: 7%; }
+
+.fertilizingUnderImagePeppers {
+  width: 85%;
+  height: 85%;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(1);
+  z-index: 0;
+  position: absolute;
+  top: 25%;
+  left: 6%; }
+
+.fertilizingColumnImage1 {
+  background-image: url("../images/seedling1.jpg");
+  width: 10rem;
+  height: 10rem;
+  border: 0.8rem solid white;
+  transform: rotate(45deg);
+  z-index: 2;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top: 26%;
+  left: 29%; }
+
+.fertilizingColumnImage2 {
+  background-image: url("../images/leaves1.jpg");
+  width: 10rem;
+  height: 10rem;
+  border: 0.8rem solid white;
+  transform: rotate(45deg);
+  z-index: 2;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top: 26%;
+  left: 29%; }
+
+.fertilizingColumnImage3 {
+  background-image: url("../images/flower1.jpg");
+  width: 10rem;
+  height: 10rem;
+  border: 0.8rem solid white;
+  transform: rotate(45deg);
+  z-index: 2;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top: 26%;
+  left: 29%; }
+
+.fertilizingColumnImage4 {
+  background-image: url("../images/chilliFruits1.jpg");
+  width: 10rem;
+  height: 10rem;
+  border: 0.8rem solid white;
+  transform: rotate(45deg);
+  z-index: 2;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top: 26%;
+  left: 29%; }
+
+/* *************  FERTILIZING SECTION ANIMATION CLASSES ************** */
+.fertilizingSectionIn {
+  animation: fertilizingSectionIn 1.5s 0.8s ease-out both; }
+
+.fertilizingSectionOut {
+  animation: fertilizingSectionOut 1.3s 0.1s ease-out both; }
+
+.fertilizingUnderImagePeppersIn {
+  animation: fertilizingUnderImagePeppersIn 1.6s 2.5s ease-out both; }
+
+.fertilizingColumnImage1In {
+  animation: fertilizingColumnImage1In 2s 2.5s ease-out both; }
+
+.fertilizingColumnImage2In {
+  animation: fertilizingColumnImage2In 2s 2.9s ease-out both; }
+
+.fertilizingColumnImage3In {
+  animation: fertilizingColumnImage3In 2s 3.3s ease-out both; }
+
+.fertilizingColumnImage4In {
+  animation: fertilizingColumnImage4In 2s 3.7s ease-out both; }
+
+.fertilizingSectionTitleIn {
+  animation: contactTitleTextIn 2s 4s ease-out both; }
+
+/* ******************  FERTILIZING FOOTER *************************** */
+.fertilizingFooter {
+  width: 100%;
+  height: 25%;
+  background-image: url("../images/paprykaTlo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 11%;
+  transform: scale(0.5); }
+
+.fertilizingFooterBack {
+  background-image: url("../images/habaneros1.jpg");
+  width: 12rem;
+  height: 12rem;
+  transform: rotate(45deg);
+  background-size: cover;
+  margin: 0 auto;
+  border: 0.8rem solid white; }
+
+.fertilizingFooterBackText {
+  font-family: 'Passion One', sans-serif;
+  font-size: 3.7rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 2px 9px black;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 4.2rem;
+  left: 2.4rem; }
+
+/* *************  FERTILIZING FOOTER ANIMATION CLASSES ************** */
+.fertilizingFooterIn {
+  animation: fertilizingFooterIn 2s 1s ease-out both; }
+
+.fertilizingFooterBackIn {
+  animation: fertilizingFooterBackIn 1.8s 0.5s ease-out both; }
+
+.fertilizingFooterOut {
+  animation: fertilizingFooterOut 1.3s 0.2s ease-out both; }
+
+.hide {
+  display: none; }
+
+=======
+>>>>>>> f4047b02857297dfaf925ad1d876751d35cd9892
+/*# sourceMappingURL=style2.css.map */

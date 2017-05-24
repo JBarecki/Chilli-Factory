@@ -1,0 +1,84 @@
+@import "css/mixins";
+/* ******************  PEPPERS HEADER *************************** */
+.peppersHeader {
+  @include header;
+  @include imageContain;
+}
+
+.peppersTitle {
+  @include headerTitle;
+}
+
+.peppersHeaderPeppers {
+  @include headerPeppers;
+}
+
+.peppersTitleText {
+  @include headerText;
+}
+
+/* *************  PEPPERS HEADER ANIMATION CLASSES ************** */
+.peppersHeaderIn {
+  animation: peppersHeaderIn 2.3s 0.7s ease-out both;
+}
+
+.peppersHeaderOut {
+  animation: peppersHeaderOut 1.3s 0.2s ease-out both;
+}
+
+.peppersTitleTextIn {
+  animation: peppersTitleTextIn 2s 3.2s ease-out both;
+}
+
+/* ******************  PEPPERS SECTION *************************** */
+.peppersSection {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(255, 0, 0 , 0.3);
+
+}
+
+/* *************  PEPPERS SECTION ANIMATION CLASSES ************** */
+
+.peppersSectionIn {
+  animation: peppersSectionIn 1.4s 1.6s ease-out both;
+}
+
+.peppersSectionOut {
+  animation: peppersSectionOut 1.3s 0.2s ease-out both;
+}
+
+/* ******************  PEPPERS FOOTER *************************** */
+.peppersFooter {
+  @include Footer;
+  @include imageContain;
+  position: absolute;
+    bottom: 11%;
+    transform: scale(0.5);
+}
+
+.peppersFooterBack {
+  background-image: url("../images/habaneros1.jpg");
+  @include FooterBack;
+  }
+
+.peppersFooterBackText {
+  @include FooterBackText;
+  position: absolute;
+    top: 4.2rem;
+    left: 2.4rem;
+}
+
+/* *************  PEPPERS FOOTER ANIMATION CLASSES ************** */
+
+.growingFooterIn {
+  animation: peppersFooterIn 1.5s 1s ease-out both;
+}
+
+.growingFooterBackIn {
+  animation: peppersFooterBackIn 2.5s 0.1s ease-out both;
+}
+
+.growingFooterOut {
+  animation: peppersFooterOut 1.3s 0.2s ease-out both;
+}

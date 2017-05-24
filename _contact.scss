@@ -1,0 +1,149 @@
+@import "css/mixins";
+/* ******************  CONTACT HEADER *************************** */
+
+.contactHeader {
+  @include header;
+  @include imageContain;
+}
+
+.contactTitle {
+  @include headerTitle;
+}
+
+.contactHeaderPeppers {
+  @include headerPeppers;
+}
+
+.contactTitleText {
+  @include headerText;
+}
+
+/* *************  CONTACT HEADER ANIMATION CLASSES ************** */
+.contactHeaderIn {
+  animation: contactHeaderIn 2.3s 0.7s ease-out both;
+}
+
+.contactHeaderOut {
+  animation: contactHeaderOut 1.3s 0.2s ease-out both;
+}
+
+.contactTitleTextIn {
+  animation: contactTitleTextIn 2s 3.2s ease-out both;
+}
+
+/* ******************  CONTACT SECTION *************************** */
+.contactSection {
+  width: 100%;
+  height: 55%;
+  position: relative;
+}
+
+.contactSectionLeft {
+  width: 36%;
+  margin: 2%;
+  display: inline;
+  float: left;
+
+}
+
+.contactSectionRight {
+  width: 35%;
+  margin: 2%;
+  display: inline;
+    float: left;
+}
+
+input {
+  width: 100%;
+  height: 3.6rem;
+  display: inline;
+  border: 3px solid red;
+  font-family:'Passion One', sans-serif;
+  letter-spacing: 0.1em;
+  margin-bottom: 3.5%;
+  color: lightgrey;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+textarea {
+  width: 100%;
+  height: 20rem;
+  font-size: 1.8rem;
+  border: 3px solid red;
+  color: lightgrey;
+  font-family:'Passion One', sans-serif;
+  display: inline;
+}
+
+.contactButon {
+   width: 16rem;
+   height: 3.5rem;
+   background-color: red;
+   font-size: 2rem;
+   color: white;
+   font-family:'Passion One', sans-serif;
+   font-weight: 500;
+   margin: 0 auto;
+   position: absolute;
+     top: 52.5%;
+
+}
+
+.contactSectionImage {
+  background-image: url("../images/chillis3.jpg");
+  width: 16rem;
+  height: 16rem;
+  @include imageContain;
+  position: absolute;
+    top: 3%;
+    left: 78%;
+
+}
+
+
+
+
+/* *************  CONTACT SECTION ANIMATION CLASSES ************** */
+
+.contactSectionIn {
+  animation: contactSectionIn 1.4s 1.6s ease-out both;
+}
+
+.contactSectionOut {
+  animation: contactSectionOut 1.3s 0.2s ease-out both;
+}
+
+/* ******************  CONTACT FOOTER *************************** */
+.contactFooter {
+  @include Footer;
+  @include imageContain;
+  position: absolute;
+    bottom: -9%;
+    transform: scale(0.5);
+}
+
+.contactFooterBack {
+  background-image: url("../images/habaneros1.jpg");
+  @include FooterBack;
+  }
+
+.contactFooterBackText {
+@include FooterBackText;
+  position: absolute;
+    top: 4.2rem;
+    left: 2.4rem;
+}
+
+/* *************  CONTACT FOOTER ANIMATION CLASSES ************** */
+.contactFooterIn {
+  animation: contactFooterIn 1.5s 2s ease-out both;
+}
+
+.contactFooterBackIn {
+  animation: contactFooterBackIn 2.5s 0.1s ease-out both;
+}
+
+.contactFooterOut {
+  animation: contactFooterOut 1.3s 0.2s ease-out both;
+}
