@@ -145,13 +145,13 @@ section {
   @include mainMenuelementsHover;
 }
 
-.gallery{
+.fertilizing{
   z-index: 3;
   background-image: url("../images/spices1.jpg");
   @include mainMenuElements;
 }
 
-.gallery:hover {
+.fertilizing:hover {
   @include mainMenuelementsHover;
 }
 
@@ -215,8 +215,8 @@ animation: sectionOut 1s 0s ease-out both;
   animation: aboutUs 1s 1.8s ease-out backwards;
 }
 
-.galleryIn {
-  animation: gallery 1s 1.8s ease-out backwards;
+.fertilizingIn {
+  animation: fertilizing 1s 1.8s ease-out backwards;
 }
 
 .growingIn {
@@ -233,11 +233,10 @@ footer {
 }
 
 .footerContainer {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-image: url("../images/paprykaTlo1.jpg");
   @include imageContain;
-  transform: rotate(180deg);
 }
 
 /* *************** FOOTER ANIMATION CLASSES ************ */

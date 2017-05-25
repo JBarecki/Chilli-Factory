@@ -1,8 +1,5 @@
 /* ****************** MAIN PAGE *********************** */
 /* **************************************************** */
-/* **************************************************** */
-/* **************************************************** */
-
 
 /* ****************** MAIN PAGE HEADER ************************** */
 
@@ -99,7 +96,7 @@
   }
 }
 
-@keyframes gallery {
+@keyframes fertilizing {
   0% {
    transform: translate(100%, 0) rotate(45deg);
   }
@@ -142,13 +139,13 @@
     transform: scale(0.4) translate(0, 220%) rotate(180deg);
   }
   100% {
-    transform: scale(1.3) translate(0, 25%) rotate(180deg);
+    transform: scale(1) translate(0, 25%) rotate(180deg);
   }
 }
 
 @keyframes footerOut {
   0% {
-    transform: scale(1.3) translate(0, 0) rotate(180deg);
+    transform: scale(1) translate(0, 0) rotate(180deg);
   }
   100% {
     transform: scale(0.2) translate(0, -300%) rotate(180deg);
@@ -167,7 +164,7 @@
    transform: translate(0, 300%) scale(0.2);
  }
   100% {
-  transform: translate(0, -50%) scale(1.9);
+  transform: translate(0, -50%) scale(1);
   }
 }
 
@@ -210,7 +207,6 @@
 }
 
 /* *************** ABOUT US FOOTER ******************** */
-
 @keyframes aboutUsFooterIn {
   0% {
    transform: translate(0, 0);
@@ -237,6 +233,478 @@
 }
 
 @keyframes aboutUsFooterOut {
+  0% {
+   transform: translate(0, 0);
+ }
+  100% {
+  transform: translate(0, 500%) scale(0.3);
+  }
+}
+/* ****************** GROWING ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+
+/* *************** GROWING HEADER ******************** */
+
+/* *************** GROWING SECTION ******************** */
+
+@keyframes growingSectionIn {
+  0% {
+   transform: translate(300%, 0);
+ }
+  100% {
+  transform: translate(0, -60%);
+  }
+}
+
+@keyframes growingSectionOut {
+  0% {
+   transform: translate(0, -60%);
+ }
+  100% {
+  transform: translate(300%, -60%);
+  }
+}
+
+@keyframes growingMiddleImageIn {
+  0% {
+   transform: translate(0, 30%) scale(0);
+ }
+  100% {
+  transform: translate(0, 0) scale(1);
+  }
+}
+
+  @keyframes growingColumnImageLeftIn {
+    0% {
+     transform: translate(-500%, 0) rotate(235deg);
+   }
+    100% {
+    transform: translate(0, 0) rotate(45deg);
+    }
+}
+
+    @keyframes growingColumnImageRightIn {
+      0% {
+       transform: translate(500%, 0) rotate(235deg);
+     }
+      100% {
+      transform: translate(0, 0) rotate(45deg);
+
+      }
+    }
+
+/* *************** GROWING FOOTER ******************** */
+
+@keyframes growingFooterIn {
+  0% {
+   transform: translate(0, 0);
+ }
+  100% {
+  transform: translate(0.5%, -100%) scale(0.75);
+  }
+}
+
+@keyframes growingFooterBackIn {
+  0% {
+   transform: translate(0, 0) scale(1);
+   color: transparent;
+ }
+50% {
+  transform: translate(200%, -400%) scale(20) rotate(180deg);
+  background-image: url("../images/habaneros1.jpg");
+  background-size: cover;
+}
+  100% {
+  transform: translate(0, 0) scale(0.6) rotate(-45deg);
+  background-image: none;
+  background-color: red;
+  color: white;
+  }
+}
+
+@keyframes growingFooterOut {
+  0% {
+   transform: translate(300%, 0);
+ }
+  100% {
+  transform: translate(0, -50%);
+  }
+}
+
+/* ****************** PEPPERS ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+
+/* *************** PEPPERS HEADER ******************** */
+
+@keyframes peppersHeaderIn {
+  0% {
+   transform: translate(200%, -50%) scale(0.1);
+ }
+  100% {
+  transform: translate(0, -50%) scale(1.9);
+  }
+}
+
+@keyframes peppersTitleTextIn {
+  0% {
+   color: transparent;
+ }
+  100% {
+  color: black;
+  }
+}
+
+@keyframes peppersHeaderOut {
+  0% {
+   transform: translate(0, -50%) scale(1.9);
+ }
+  100% {
+  transform: translate(0, -300%) scale(0.3);
+  }
+}
+
+/* *************** PEPPERS SECTION ******************** */
+
+@keyframes peppersSectionIn {
+  0% {
+   transform: translate(-200%, 200%);
+ }
+  100% {
+  transform: translate(0, -55%);
+  }
+}
+
+@keyframes peppersSectionOut {
+  0% {
+   transform: translate(0, -48%);
+ }
+  100% {
+  transform: translate(-300%, 0);
+  }
+}
+
+@keyframes peppersCol1Scale {
+  0% {
+  height: 0;
+  position: absolute;
+    top: 89%;
+    left: 18%;
+ }
+  100% {
+ height: 14%;
+ position: absolute;
+   top: 75%;
+   left: 18%;
+  }
+}
+
+@keyframes peppersCol2Scale {
+  0% {
+  height: 0;
+  position: absolute;
+    top: 89%;
+    left: 18%;
+ }
+  100% {
+ height: 60%;
+ position: absolute;
+   top: 26%;
+   left: 18%;
+  }
+}
+
+@keyframes peppersCol3Scale {
+  0% {
+  height: 0;
+  position: absolute;
+    top: 89%;
+    left: 18%;
+ }
+  100% {
+ height: 35%;
+ position: absolute;
+   top: 51%;
+   left: 18%;
+  }
+}
+
+@keyframes peppersCol4Scale {
+  0% {
+  height: 0;
+  position: absolute;
+    top: 89%;
+    left: 18%;
+ }
+  100% {
+ height: 55%;
+ position: absolute;
+   top: 31%;
+   left: 19%;
+  }
+}
+
+@keyframes pepperColumnImageIn {
+  0% {
+transform: scale(0) rotate(235deg);
+ }
+ 100% {
+transform: scale(1) rotate(45deg);
+  }
+}
+
+/* *************** PEPPERS FOOTER ******************** */
+@keyframes peppersFooterIn {
+  0% {
+   transform: translate(0, 0);
+ }
+  100% {
+  transform: translate(0, 64%) scale(0.60);
+  }
+}
+
+@keyframes peppersFooterBackIn {
+  0% {
+   transform: translate(0, 0) scale(1);
+ }
+50% {
+  transform: translate(200%, -400%) scale(20) rotate(180deg);
+  background-image: url("../images/paprika1.jpg");
+  background-size: cover;
+}
+  100% {
+  transform: translate(0, 0) scale(0.6) rotate(-45deg);
+  background-image: none;
+  background-color: red;
+  }
+}
+
+@keyframes peppersFooterOut {
+  0% {
+   transform: translate(0, 0);
+ }
+  100% {
+  transform: translate(0, 500%) scale(0.3);
+  }
+}
+
+/* ****************** CONTACT ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+
+/* *************** CONTACT HEADER ******************** */
+@keyframes contactHeaderIn {
+  0% {
+   transform: translate(-300%, 300%) scale(0.2);
+ }
+  100% {
+  transform: translate(0, -50%) scale(1.8);
+  }
+}
+
+@keyframes contactTitleTextIn {
+  0% {
+   color: transparent;
+ }
+  100% {
+  color: black;
+  }
+}
+
+@keyframes contactHeaderOut {
+  0% {
+   transform: translate(0, -50%) scale(1.9);
+ }
+  100% {
+  transform: translate(0, -300%) scale(0.3);
+  }
+}
+
+/* *************** CONTACT SECTION ******************** */
+
+@keyframes contactSectionIn {
+  0% {
+   transform: translate(250%, -250%);
+ }
+  100% {
+  transform: translate(0, -50%);
+  }
+}
+
+@keyframes contactSectionOut {
+  0% {
+   transform: translate(0, -48%);
+ }
+  100% {
+  transform: translate(-300%, 0);
+  }
+}
+
+/* *************** CONTACT FOOTER ******************** */
+@keyframes contactFooterIn {
+  0% {
+   transform: translate(0, 0) rotate(180deg);
+ }
+  100% {
+  transform: translate(0, -40%) rotate(180deg) scale(1.2);
+  }
+}
+
+@keyframes contactFooterBackIn {
+  0% {
+   transform: translate(0, 0) scale(1);
+ }
+50% {
+  transform: translate(200%, -400%) scale(20) ;
+  background-image: url("../images/paprika1.jpg");
+  background-size: cover;
+}
+  100% {
+  transform: translate(0, 0) scale(0.6) rotate(180deg);
+  background-image: none;
+  background-color: red;
+  }
+}
+
+@keyframes contactFooterOut {
+  0% {
+   transform: translate(0, 0);
+ }
+  100% {
+  transform: translate(0, 500%) scale(0.3);
+  }
+}
+
+/* ****************** FERTILIZING ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+
+/* *************** FERTILIZING HEADER ******************** */
+@keyframes fertilizingHeaderIn {
+  0% {
+   transform: translate(-200%, -50%) scale(0.2);
+ }
+  100% {
+  transform: translate(0, -60%) scale(1.55);
+  }
+}
+
+@keyframes fertilizingTitleTextIn {
+  0% {
+   color: transparent;
+ }
+  100% {
+  color: black;
+  }
+}
+
+@keyframes fertilizingHeaderOut {
+  0% {
+   transform: translate(0, -50%) scale(1.9);
+ }
+  100% {
+  transform: translate(0, -300%) scale(0.3);
+  }
+}
+
+/* *************** FERTILIZING SECTION ******************** */
+
+@keyframes fertilizingSectionIn {
+  0% {
+   transform: translate(0, -400%);
+ }
+  100% {
+  transform: translate(0, -63%);
+  }
+}
+
+@keyframes fertilizingSectionOut {
+  0% {
+   transform: translate(0, -48%);
+ }
+  100% {
+  transform: translate(-300%, 0);
+  }
+}
+
+@keyframes fertilizingUnderImagePeppersIn {
+  0% {
+   transform: translate(0, -80%) scale(0);
+ }
+  100% {
+  transform: translate(0, 0) scale(1.15);
+  }
+}
+
+@keyframes fertilizingColumnImage1In {
+  0% {
+   transform: translate(0, -600%) scale(0) rotate(235deg);
+ }
+  100% {
+  transform: translate(0, 0) scale(1) rotate(45deg);
+  }
+}
+
+@keyframes fertilizingColumnImage2In {
+  0% {
+   transform: translate(-600%, 0) scale(0) rotate(235deg);
+ }
+  100% {
+  transform: translate(0, 0) scale(1) rotate(45deg);
+  }
+}
+
+@keyframes fertilizingColumnImage3In {
+  0% {
+   transform: translate(0, 600%) scale(0) rotate(235deg);
+ }
+  100% {
+  transform: translate(0, 0) scale(1) rotate(45deg);
+  }
+}
+
+@keyframes fertilizingColumnImage4In {
+  0% {
+   transform: translate(600%, 0) scale(0) rotate(235deg);
+ }
+  100% {
+  transform: translate(0, 0) scale(1) rotate(45deg);
+  }
+}
+
+
+/* *************** FERTILIZING FOOTER ******************** */
+@keyframes fertilizingFooterIn {
+  0% {
+   transform: translate(0, 150%);
+ }
+  100% {
+  transform: translate(0, 60%) scale(0.65);
+  }
+}
+
+@keyframes fertilizingFooterBackIn {
+  0% {
+   transform: translate(0, 0) scale(1);
+ }
+50% {
+  transform: translate(100%, 100%) scale(22) rotate(180deg);
+  background-image: url("../images/paprika1.jpg");
+  background-size: cover;
+}
+  100% {
+  transform: translate(0, 0) scale(0.7) rotate(-45deg);
+  background-image: none;
+  background-color: red;
+  }
+}
+
+@keyframes fertilizingFooterOut {
   0% {
    transform: translate(0, 0);
  }
