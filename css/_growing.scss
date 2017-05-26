@@ -19,8 +19,8 @@
 .growingTitleText {
   @include headerText;
   position: absolute;
-  top: 41%;
-  left: 37.5%;
+    top: 41%;
+    left: 35%;
 }
 /* ********** GROWING HEADER ANIMATION CLASSES **************** */
 
@@ -90,14 +90,14 @@
   text-align: right;
   float: left;
   position: absolute;
-    left: 16%;
+    left: 17%;
 }
 
 .growingUnderImageLeft {
   @include growingUnderImage;
   position: absolute;
-    bottom: 39%;
-    left: 75%;
+    bottom: 40%;
+    left: 74%;
 }
 
 /* ****************** GROWING SECTION MIDDLE ************************** */
@@ -199,7 +199,7 @@
 }
 
 .growingFooterBack {
-  background-image: url("../images/habaneros1.jpg");
+  background-image: url("../images/chiliPlant2.jpg");
   @include FooterBack;
 }
 
@@ -212,9 +212,7 @@
 }
 
 .growingFooterBackText:hover {
-   transform: scale(1.5) rotate(45deg);
-   color: orange;
-
+  @include footerBackTextHover;
 }
 
 

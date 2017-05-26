@@ -57,9 +57,6 @@ let spicesFooter = document.querySelector(".spicesFooter");
 let spicesFooterBack = document.querySelector(".spicesFooterBack");
 let spicesFooterBackText = document.querySelector(".spicesFooterBackText");
 
-
-
-
 // main In/Out functions
 function mainPageIn() {
   mainHeader.classList.remove("headerOut");
@@ -77,9 +74,10 @@ function mainPageIn() {
      peppers.classList.add("peppersIn");
      aboutUs.classList.add("aboutUsIn");
 
+     mainFooter.classList.toggle("hide");
      mainFooter.classList.remove("footerOut");
      mainFooter.classList.add("footerIn");
-     mainFooter.classList.toggle("hide");
+
 }
 
 function mainPageOut() {
@@ -97,8 +95,8 @@ function mainPageOut() {
   mainFooter.classList.remove("footerIn");
   mainFooter.classList.add("footerOut");
     setTimeout( function(){
-      mainFooter.classList.add("hide");
-        }, 1100);
+      mainFooter.classList.toggle("hide");
+    }, 800);
 }
 
 //Events

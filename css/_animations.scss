@@ -136,7 +136,7 @@
 
 @keyframes footerIn {
   0% {
-    transform: scale(0.2) translate(0, 220%) rotate(180deg);
+    transform: scale(0.1) translate(0, 320%) rotate(180deg);
   }
   100% {
     transform: scale(1) translate(0, 25%) rotate(180deg);
@@ -145,10 +145,10 @@
 
 @keyframes footerOut {
   0% {
-    transform: scale(1) translate(0, 25%) rotate(180deg);
+    transform: scale(1) translate(0, 25%);
   }
   100% {
-    transform: scale(0.2) translate(0, 220%) rotate(180deg);
+    transform: scale(0.1) translate(0, -320%);
   }
 }
 
@@ -179,10 +179,10 @@
 
 @keyframes aboutUsHeaderOut {
   0% {
-   transform: translate(0, -50%) scale(1.9);
+   transform: translate(0, -30%) scale(2);
  }
   100% {
-  transform: translate(0, -300%) scale(0.3);
+  transform: translate(0, -300%) scale(0.1);
   }
 }
 
@@ -199,7 +199,7 @@
 
 @keyframes aboutUsSectionOut {
   0% {
-   transform: translate(0, -48%);
+   transform: translate(0, -35%);
  }
   100% {
   transform: translate(-300%, 0);
@@ -222,8 +222,6 @@
  }
 50% {
   transform: translate(200%, -400%) scale(20) rotate(180deg);
-  background-image: url("../images/paprika1.jpg");
-  background-size: cover;
 }
   100% {
   transform: translate(0, 0) scale(0.6) rotate(-45deg);
@@ -340,8 +338,6 @@
  }
 50% {
   transform: translate(200%, -400%) scale(20) rotate(180deg);
-  background-image: url("../images/habaneros1.jpg");
-  background-size: cover;
 }
   100% {
   transform: translate(0, 0) scale(0.6) rotate(-45deg);
@@ -499,8 +495,6 @@ transform: scale(1) rotate(45deg);
  }
 50% {
   transform: translate(200%, -400%) scale(20) rotate(180deg);
-  background-image: url("../images/paprika1.jpg");
-  background-size: cover;
 }
   100% {
   transform: translate(0, 0) scale(0.6) rotate(-45deg);
@@ -587,8 +581,6 @@ transform: scale(1) rotate(45deg);
  }
 50% {
   transform: translate(200%, -400%) scale(20) ;
-  background-image: url("../images/paprika1.jpg");
-  background-size: cover;
 }
   100% {
   transform: translate(0, 0) scale(0.6) rotate(180deg);
@@ -721,8 +713,6 @@ transform: scale(1) rotate(45deg);
  }
 50% {
   transform: translate(100%, 100%) scale(22) rotate(180deg);
-  background-image: url("../images/paprika1.jpg");
-  background-size: cover;
 }
   100% {
   transform: translate(0, 0) scale(0.7) rotate(-45deg);
@@ -813,8 +803,6 @@ transform: scale(1) rotate(45deg);
  }
 50% {
   transform: translate(100%, 100%) scale(24) rotate(180deg);
-  background-image: url("../images/paprika1.jpg");
-  background-size: cover;
 }
   100% {
   transform: translate(0, 0) scale(0.7) rotate(-45deg);

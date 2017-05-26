@@ -188,7 +188,7 @@
 }
 
 .peppersFooterBack {
-  background-image: url("../images/habaneros1.jpg");
+  background-image: url("../images/paprika1.jpg");
   @include FooterBack;
   }
 
@@ -197,6 +197,10 @@
   position: absolute;
     top: 4.2rem;
     left: 2.4rem;
+}
+
+.peppersFooterBackText:hover {
+  @include footerBackTextHover;
 }
 
 /* *************  PEPPERS FOOTER ANIMATION CLASSES ************** */

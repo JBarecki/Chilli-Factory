@@ -155,7 +155,7 @@
 }
 
 .fertilizingFooterBack {
-  background-image: url("../images/habaneros1.jpg");
+  background-image: url("../images/fertilize.jpg");
   @include FooterBack;
 }
 
@@ -164,6 +164,10 @@
   position: absolute;
     top: 4.2rem;
     left: 2.4rem;
+}
+
+.fertilizingFooterBackText:hover {
+  @include footerBackTextHover;
 }
 
 /* *************  FERTILIZING FOOTER ANIMATION CLASSES ************** */

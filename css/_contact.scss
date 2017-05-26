@@ -118,7 +118,7 @@ textarea {
 }
 
 .contactFooterBack {
-  background-image: url("../images/habaneros1.jpg");
+  background-image: url("../images/contact.jpg");
   @include FooterBack;
   }
 
@@ -127,6 +127,10 @@ textarea {
   position: absolute;
     top: 4.2rem;
     left: 2.4rem;
+}
+
+.contactFooterBackText:hover {
+  @include footerBackTextHover;
 }
 
 /* *************  CONTACT FOOTER ANIMATION CLASSES ************** */

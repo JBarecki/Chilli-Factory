@@ -17,6 +17,13 @@
   @include headerText;
 }
 
+#aboutUsTitleTextId {
+  width: 37%;
+  position: absolute;
+    top: 52%;
+    left: 31%
+
+}
 /* *********** ABOUT US HEADER ANIMATION CLASSES ***************** */
 .aboutUsHeaderIn {
   animation: aboutUsHeaderIn 2.3s 0.7s ease-out both;
@@ -133,7 +140,7 @@
 }
 
 .aboutUsFooterBack {
-  background-image: url("../images/paprika1.jpg");
+  background-image: url("../images/cayenne.jpg");
   @include FooterBack;
 
   }
@@ -143,6 +150,10 @@
   position: absolute;
     top: 4.2rem;
     left: 2.4rem;
+}
+
+.aboutUsFooterBackText:hover {
+  @include footerBackTextHover;
 }
 
 /* ************ ABOUT US FOOTER ANIMATION CLASSES ************* */

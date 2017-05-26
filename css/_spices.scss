@@ -82,14 +82,13 @@
     left: -97%;
 }
 
-
 .img3 {
     top: 63%;
     left: 27.5%;
   width: 12rem;
   height: 12rem;
   background-image: url("../images/flakes1.jpg");
-    background-size: cover;
+    @include imageContain;
 }
 
 .img3 p {
@@ -183,6 +182,10 @@
 position: absolute;
   top: 33%;
   left: 20%;
+}
+
+.spicesFooterBackText:hover {
+  @include footerBackTextHover;
 }
 
 /* ********** SPICES FOOTER ANIMATIONS ************** */

@@ -127,7 +127,7 @@ section {
 
 .contact{
   z-index: 2;
-  background-image: url("../images/jalapenos1.jpg");
+  background-image: url("../images/contact.jpg");
   @include mainMenuElements;
 }
 
@@ -137,7 +137,7 @@ section {
 
 .aboutUs{
   z-index: 2;
-  background-image: url("../images/paprika1.jpg");
+  background-image: url("../images/cayenne.jpg");
   @include mainMenuElements;
 }
 
@@ -147,7 +147,7 @@ section {
 
 .fertilizing{
   z-index: 3;
-  background-image: url("../images/spices1.jpg");
+  background-image: url("../images/fertilize.jpg");
   @include mainMenuElements;
 }
 
@@ -166,7 +166,7 @@ section {
 
 .spices{
   z-index: 3;
-  background-image: url("../images/pepperoni1.jpg");
+  background-image: url("../images/spices1.jpg");
   @include mainMenuElements;
 }
 
@@ -176,7 +176,7 @@ section {
 
 .growing {
   z-index: 2;
-  background-image: url("../images/habaneros1.jpg");
+  background-image: url("../images/chiliPlant2.jpg");
   @include mainMenuElements;
 }
 
@@ -245,7 +245,7 @@ footer {
 }
 
 .footerOut {
-  animation: footerOut 3s 0s ease-out both;
+  animation: footerOut 1.3s 0.1s ease-out both;
 }
 
 /* ****************** HIDE *************************** */
