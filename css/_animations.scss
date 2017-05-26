@@ -87,7 +87,7 @@
   }
 }
 
-@keyframes seeds {
+@keyframes spices {
   0% {
    transform: translate(-100%, 0) rotate(45deg);
   }
@@ -136,7 +136,7 @@
 
 @keyframes footerIn {
   0% {
-    transform: scale(0.4) translate(0, 220%) rotate(180deg);
+    transform: scale(0.2) translate(0, 220%) rotate(180deg);
   }
   100% {
     transform: scale(1) translate(0, 25%) rotate(180deg);
@@ -145,10 +145,10 @@
 
 @keyframes footerOut {
   0% {
-    transform: scale(1) translate(0, 0) rotate(180deg);
+    transform: scale(1) translate(0, 25%) rotate(180deg);
   }
   100% {
-    transform: scale(0.2) translate(0, -300%) rotate(180deg);
+    transform: scale(0.2) translate(0, 220%) rotate(180deg);
   }
 }
 
@@ -161,10 +161,10 @@
 
 @keyframes aboutUsHeaderIn {
   0% {
-   transform: translate(0, 300%) scale(0.2);
+   transform: translate(0, 300%) scale(0.1);
  }
   100% {
-  transform: translate(0, -50%) scale(1);
+  transform: translate(0, -30%) scale(2);
   }
 }
 
@@ -193,7 +193,7 @@
    transform: translate(350%, 0);
  }
   100% {
-  transform: translate(0, -48%);
+  transform: translate(0, -35%);
   }
 }
 
@@ -234,10 +234,10 @@
 
 @keyframes aboutUsFooterOut {
   0% {
-   transform: translate(0, 0);
+   transform: translate(0, -90%) scale(0.65);
  }
   100% {
-  transform: translate(0, 500%) scale(0.3);
+  transform: translate(0, 200%) scale(0.1);
   }
 }
 /* ****************** GROWING ************************ */
@@ -246,6 +246,33 @@
 /* **************************************************** */
 
 /* *************** GROWING HEADER ******************** */
+
+@keyframes growingHeaderIn {
+  0% {
+   transform: translate(0, 300%) scale(0.1);
+ }
+  100% {
+  transform: translate(0, -30%) scale(2);
+  }
+}
+
+@keyframes growingTitleTextIn {
+  0% {
+   color: transparent;
+ }
+  100% {
+  color: black;
+  }
+}
+
+@keyframes growingHeaderOut {
+  0% {
+   transform: translate(0, -30%) scale(2);
+ }
+  100% {
+  transform: translate(0, -300%) scale(0.1);
+  }
+}
 
 /* *************** GROWING SECTION ******************** */
 
@@ -272,7 +299,7 @@
    transform: translate(0, 30%) scale(0);
  }
   100% {
-  transform: translate(0, 0) scale(1);
+  transform: translate(0, 0) scale(0.9);
   }
 }
 
@@ -326,10 +353,10 @@
 
 @keyframes growingFooterOut {
   0% {
-   transform: translate(300%, 0);
+   transform: translate(0.5%, -100%) scale(0.75);
  }
   100% {
-  transform: translate(0, -50%);
+  transform: translate(0, 100%) scale(0.1);
   }
 }
 
@@ -342,10 +369,10 @@
 
 @keyframes peppersHeaderIn {
   0% {
-   transform: translate(200%, -50%) scale(0.1);
+   transform: translate(200%, -30%) scale(0.1);
  }
   100% {
-  transform: translate(0, -50%) scale(1.9);
+  transform: translate(0, -30%) scale(2);
   }
 }
 
@@ -360,10 +387,10 @@
 
 @keyframes peppersHeaderOut {
   0% {
-   transform: translate(0, -50%) scale(1.9);
+   transform: translate(0, -30%) scale(2);
  }
   100% {
-  transform: translate(0, -300%) scale(0.3);
+  transform: translate(-200%, -30%) scale(0.1);
   }
 }
 
@@ -380,10 +407,10 @@
 
 @keyframes peppersSectionOut {
   0% {
-   transform: translate(0, -48%);
+   transform: translate(0, -55%);
  }
   100% {
-  transform: translate(-300%, 0);
+  transform: translate(200%, -200%);
   }
 }
 
@@ -484,10 +511,10 @@ transform: scale(1) rotate(45deg);
 
 @keyframes peppersFooterOut {
   0% {
-   transform: translate(0, 0);
+   transform: translate(0, 64%) scale(0.6);
  }
   100% {
-  transform: translate(0, 500%) scale(0.3);
+  transform: translate(-200%, 0) scale(0.1);
   }
 }
 
@@ -499,10 +526,10 @@ transform: scale(1) rotate(45deg);
 /* *************** CONTACT HEADER ******************** */
 @keyframes contactHeaderIn {
   0% {
-   transform: translate(-300%, 300%) scale(0.2);
+   transform: translate(-300%, 300%) scale(0.1);
  }
   100% {
-  transform: translate(0, -50%) scale(1.8);
+  transform: translate(0, -30%) scale(2);
   }
 }
 
@@ -517,10 +544,10 @@ transform: scale(1) rotate(45deg);
 
 @keyframes contactHeaderOut {
   0% {
-   transform: translate(0, -50%) scale(1.9);
+   transform: translate(0, -30%) scale(2);
  }
   100% {
-  transform: translate(0, -300%) scale(0.3);
+  transform: translate(0, -300%) scale(0.1);
   }
 }
 
@@ -547,10 +574,10 @@ transform: scale(1) rotate(45deg);
 /* *************** CONTACT FOOTER ******************** */
 @keyframes contactFooterIn {
   0% {
-   transform: translate(0, 0) rotate(180deg);
+   transform: translate(0, 0);
  }
   100% {
-  transform: translate(0, -40%) rotate(180deg) scale(1.2);
+  transform: translate(0, -47%) scale(1);
   }
 }
 
@@ -572,10 +599,10 @@ transform: scale(1) rotate(45deg);
 
 @keyframes contactFooterOut {
   0% {
-   transform: translate(0, 0);
+   transform: translate(0, -47%);
  }
   100% {
-  transform: translate(0, 500%) scale(0.3);
+  transform: translate(300%, 0) scale(0.1);
   }
 }
 
@@ -587,10 +614,10 @@ transform: scale(1) rotate(45deg);
 /* *************** FERTILIZING HEADER ******************** */
 @keyframes fertilizingHeaderIn {
   0% {
-   transform: translate(-200%, -50%) scale(0.2);
+   transform: translate(-200%, -35%) scale(0.1);
  }
   100% {
-  transform: translate(0, -60%) scale(1.55);
+  transform: translate(0, -35%) scale(2);
   }
 }
 
@@ -605,7 +632,7 @@ transform: scale(1) rotate(45deg);
 
 @keyframes fertilizingHeaderOut {
   0% {
-   transform: translate(0, -50%) scale(1.9);
+   transform: translate(0, -35%) scale(2);
  }
   100% {
   transform: translate(0, -300%) scale(0.3);
@@ -619,13 +646,13 @@ transform: scale(1) rotate(45deg);
    transform: translate(0, -400%);
  }
   100% {
-  transform: translate(0, -63%);
+  transform: translate(0, -60%);
   }
 }
 
 @keyframes fertilizingSectionOut {
   0% {
-   transform: translate(0, -48%);
+   transform: translate(0, -60%);
  }
   100% {
   transform: translate(-300%, 0);
@@ -706,9 +733,101 @@ transform: scale(1) rotate(45deg);
 
 @keyframes fertilizingFooterOut {
   0% {
-   transform: translate(0, 0);
+   transform: translate(0, 60%) scale(0.65);
  }
   100% {
-  transform: translate(0, 500%) scale(0.3);
+  transform: translate(0, 200%) scale(0.3);
+  }
+}
+
+/* ****************** SPICES ************************ */
+/* **************************************************** */
+/* **************************************************** */
+/* **************************************************** */
+
+/* *************** SPICES HEADER ******************** */
+
+@keyframes spicesHeaderIn {
+  0% {
+   transform: translate(300%, 300%) scale(0.1);
+ }
+  100% {
+  transform: translate(0, -30%) scale(2);
+  }
+}
+
+@keyframes spicesTitleTextIn {
+  0% {
+   color: transparent;
+ }
+  100% {
+  color: black;
+  }
+}
+
+@keyframes spicesHeaderOut {
+  0% {
+   transform: translate(0, -35%) scale(2);
+ }
+  100% {
+  transform: translate(0, -300%) scale(0.3);
+  }
+}
+
+/* *************** SPICES SECTION ******************** */
+
+@keyframes spicesSectionIn {
+  0% {
+   transform: translate(0, -400%);
+ }
+  100% {
+  transform: translate(0, -66%) scale(0.8);
+  }
+}
+
+@keyframes spicesSectionOut {
+  0% {
+   transform: translate(0, -65%);
+ }
+  100% {
+  transform: translate(-300%, 0);
+  }
+}
+
+
+
+/* *************** SPICES FOOTER ******************** */
+
+@keyframes spicesFooterIn {
+  0% {
+   transform: translate(0, 200%);
+ }
+  100% {
+  transform: translate(0, -140%) scale(0.8);
+  }
+}
+
+@keyframes spicesFooterBackIn {
+  0% {
+   transform: translate(0, 0) scale(1);
+ }
+50% {
+  transform: translate(100%, 100%) scale(24) rotate(180deg);
+  background-image: url("../images/paprika1.jpg");
+  background-size: cover;
+}
+  100% {
+  transform: translate(0, 0) scale(0.7) rotate(-45deg);
+  background-image: none;
+  background-color: red;
+  }
+}
+
+@keyframes spicesFooterOut {
+  0% {
+   transform: translate(0, 50%) scale(0.65);
+ }
+  100% {
+  transform: translate(-200%, -200%) scale(0.1);
   }
 }

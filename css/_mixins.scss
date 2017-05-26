@@ -1,5 +1,5 @@
 @mixin header {
-  width: 100vw;
+  width: 50vw;
   height: 30%;
   margin: 0 auto;
   position: relative;
@@ -9,14 +9,14 @@
 
 @mixin headerTitle {
   font-family:'Passion One', sans-serif;
-  font-size: 2.5rem;
-  margin-top: 5%;
+  font-size: 2.35rem;
+  margin-top: 7%;
   margin-bottom: 1%;
   color: black;
   font-weight: 900;
   z-index: 3;
   text-align: center;
-  transform: translate(0, 15%);
+//  transform: translate(0, 15%);
 }
 
 @mixin headerPeppers{
@@ -34,7 +34,7 @@
 
 @mixin headerText {
   font-family:'Passion One', sans-serif;
-  width: 25%;
+  width: 30%;
   margin: 0 auto;
   font-size: 1.2rem;
   line-height: 1.2rem;
@@ -54,6 +54,7 @@
 
 @mixin mainMenuelementsHover {
   z-index: 5;
+  cursor: pointer;
   transform: scale(1.4) rotate(45deg);
   -webkit-filter: grayscale(0.1);
   filter: grayscale(0.1);
@@ -83,6 +84,7 @@
 @mixin FooterBack {
   width: 12rem;
   height: 12rem;
+  cursor: pointer;
   transform: rotate(45deg);
   background-size: cover;
   margin: 0 auto;
@@ -197,4 +199,22 @@ background-image: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%, rgba(199,
   position: absolute;
      top: 25%;
      left: -9%;
+}
+
+@mixin spicesSectionGradient {
+  background-image: -ms-radial-gradient(center, ellipse farthest-corner, rgba(117,117,117,0.8) 0%, rgba(255,255,255,0.1) 70%);
+  background-image: -moz-radial-gradient(center, ellipse farthest-corner, rgba(117,117,117,0.8) 0%, rgba(255,255,255,0.1) 70%);
+  background-image: -o-radial-gradient(center, ellipse farthest-corner, rgba(117,117,117,0.8) 0%, rgba(255,255,255,0.1) 70%);
+  background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, rgba(117,117,117,0.8)), color-stop(70, rgba(255,255,255,0.1)));
+  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, rgba(117,117,117,0.8) 0%, rgba(255,255,255,0.1) 70%);
+  background-image: radial-gradient(ellipse farthest-corner at center, rgba(117,117,117,0.8) 0%, rgba(255,255,255,0.1) 70%);
+
+}
+
+@mixin spicesPar {
+  font-family: 'Passion One', sans-serif;
+  font-size: 3.3rem;
+  color: black;
+  position: absolute;
+
 }

@@ -114,7 +114,7 @@
   @include imageContain;
   z-index: 1;
   position: absolute;
-    left: -1%;
+    left: 2%;
 }
 
 /* ******** GROWING SECTION MIDDLE  ANIMATION CLASSES ***************** */
@@ -205,10 +205,18 @@
 
 .growingFooterBackText {
   @include FooterBackText;
+  transition: 0.7s;
   position: absolute;
     top: 4.2rem;
     left: 2.4rem;
 }
+
+.growingFooterBackText:hover {
+   transform: scale(1.5) rotate(45deg);
+   color: orange;
+
+}
+
 
 /* ********** GROWING FOOTER CLASSES **************** */
 .growingFooterIn {

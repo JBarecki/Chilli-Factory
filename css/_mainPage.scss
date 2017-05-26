@@ -164,13 +164,13 @@ section {
   animation: home 1s 0.1s ease-out both;
 }
 
-.seeds{
+.spices{
   z-index: 3;
   background-image: url("../images/pepperoni1.jpg");
   @include mainMenuElements;
 }
 
-.seeds:hover {
+.spices:hover {
   @include mainMenuelementsHover;
 }
 
@@ -207,8 +207,8 @@ animation: sectionOut 1s 0s ease-out both;
   animation: contact 1s 1.8s ease-out backwards;
 }
 
-.seedsIn {
-  animation: seeds 1s 1.8s ease-out backwards;
+.spicesIn {
+  animation: spices 1s 1.8s ease-out backwards;
 }
 
 .aboutUsIn {
@@ -245,7 +245,7 @@ footer {
 }
 
 .footerOut {
-  animation: footerOut 3s 0s ease-out backwards;
+  animation: footerOut 3s 0s ease-out both;
 }
 
 /* ****************** HIDE *************************** */

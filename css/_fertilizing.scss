@@ -5,6 +5,10 @@
   @include imageContain;
 }
 
+#fertilizingHeaderTrans {
+  transform: translate(0, -185%);
+}
+
 .fertilizingTitle {
   @include headerTitle;
 }
@@ -89,25 +93,22 @@
 
 .fertilizingColumnImage1 {
   background-image: url("../images/seedling1.jpg");
- @include fertilizingColumnImage;
- }
+  @include fertilizingColumnImage;
+}
 
 .fertilizingColumnImage2 {
   background-image: url("../images/leaves1.jpg");
   @include fertilizingColumnImage;
-
 }
 
 .fertilizingColumnImage3 {
   background-image: url("../images/flower1.jpg");
   @include fertilizingColumnImage;
-
 }
 
 .fertilizingColumnImage4 {
   background-image: url("../images/chilliFruits1.jpg");
   @include fertilizingColumnImage;
-
 }
 
 /* *************  FERTILIZING SECTION ANIMATION CLASSES ************** */
@@ -180,5 +181,4 @@
 
 .hide {
  display: none;
-
 }

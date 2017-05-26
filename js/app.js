@@ -6,7 +6,7 @@ let home = document.querySelector(".home");
 let contact = document.querySelector(".contact");
 let aboutUs = document.querySelector(".aboutUs");
 let fertilizing = document.querySelector(".fertilizing");
-let seeds = document.querySelector(".seeds");
+let spices = document.querySelector(".spices");
 let growing = document.querySelector(".growing");
 let peppers = document.querySelector(".peppers");
 
@@ -20,30 +20,45 @@ let aboutUsHeader = document.querySelector(".aboutUsHeader");
 let aboutUsSection = document.querySelector(".aboutUsSection");
 let aboutUsFooter = document.querySelector(".aboutUsFooter");
 let aboutUsFooterBack = document.querySelector(".aboutUsFooterBack");
+let aboutUsFooterBackText = document.querySelector(".aboutUsFooterBackText");
 
 //growing
 let growingHeader = document.querySelector(".growingHeader");
 let growingSection = document.querySelector(".growingSection");
 let growingFooter = document.querySelector(".growingFooter");
 let growingFooterBack = document.querySelector(".growingFooterBack");
+let growingFooterBackText = document.querySelector(".growingFooterBackText");
 
 //contact
 let contactHeader = document.querySelector(".contactHeader");
 let contactSection = document.querySelector(".contactSection");
 let contactFooter = document.querySelector(".contactFooter");
 let contactFooterBack = document.querySelector(".contactFooterBack");
+let contactFooterBackText = document.querySelector(".contactFooterBackText");
 
 //peppers
 let peppersHeader = document.querySelector(".peppersHeader");
 let peppersSection = document.querySelector(".peppersSection");
 let peppersFooter = document.querySelector(".peppersFooter");
 let peppersFooterBack = document.querySelector(".peppersFooterBack");
+let peppersFooterBackText = document.querySelector(".peppersFooterBackText");
 
 //fertilizing
 let fertilizingHeader = document.querySelector(".fertilizingHeader");
 let fertilizingSection = document.querySelector(".fertilizingSection");
 let fertilizingFooter = document.querySelector(".fertilizingFooter");
 let fertilizingFooterBack = document.querySelector(".fertilizingFooterBack");
+let fertilizingFooterBackText = document.querySelector(".fertilizingFooterBackText");
+
+//spices
+let spicesHeader = document.querySelector(".spicesHeader");
+let spicesSection = document.querySelector(".spicesSection");
+let spicesFooter = document.querySelector(".spicesFooter");
+let spicesFooterBack = document.querySelector(".spicesFooterBack");
+let spicesFooterBackText = document.querySelector(".spicesFooterBackText");
+
+
+
 
 // main In/Out functions
 function mainPageIn() {
@@ -62,8 +77,8 @@ function mainPageIn() {
      peppers.classList.add("peppersIn");
      aboutUs.classList.add("aboutUsIn");
 
-     mainFooter.classList.remove("FooterOut");
-     mainFooter.classList.add("FooterIn");
+     mainFooter.classList.remove("footerOut");
+     mainFooter.classList.add("footerIn");
      mainFooter.classList.toggle("hide");
 }
 
@@ -101,6 +116,10 @@ aboutUs.addEventListener("click", function(){
     aboutUsFooter.classList.remove("aboutUsFooterOut");
     aboutUsFooter.classList.add("aboutUsFooterIn");
     aboutUsFooter.classList.toggle("hide");
+    setTimeout( function(){
+      aboutUsFooterBackText.classList.toggle("hide");
+    }, 2500);
+
 
    });
 
@@ -121,6 +140,7 @@ aboutUsFooterBack.addEventListener("click", function() {
 
       aboutUsFooter.classList.remove("aboutUsFooterIn");
       aboutUsFooter.classList.add("aboutUsFooterOut");
+      aboutUsFooterBackText.classList.toggle("hide");
       setTimeout( function(){
         aboutUsFooter.classList.add("hide");
           }, 1100);
@@ -144,6 +164,10 @@ growingSection.classList.toggle("hide");
 growingFooter.classList.remove("growingFooterOut");
 growingFooter.classList.add("growingFooterIn");
 growingFooter.classList.toggle("hide");
+setTimeout( function(){
+  growingFooterBackText.classList.toggle("hide");
+}, 2500);
+
 
 });
 
@@ -164,6 +188,7 @@ growingFooterBack.addEventListener("click", function() {
 
       growingFooter.classList.remove("growingFooterOn");
       growingFooter.classList.add("growingFooterOut");
+      growingFooterBackText.classList.toggle("hide");
       setTimeout( function(){
         growingFooter.classList.add("hide");
           }, 1100);
@@ -188,6 +213,10 @@ peppersSection.classList.toggle("hide");
 peppersFooter.classList.remove("peppersFooterOut");
 peppersFooter.classList.add("peppersFooterIn");
 peppersFooter.classList.toggle("hide");
+setTimeout( function(){
+  peppersFooterBackText.classList.toggle("hide");
+}, 2500);
+
 
 });
 
@@ -208,6 +237,7 @@ peppersFooterBack.addEventListener("click", function() {
 
       peppersFooter.classList.remove("peppersFooterOn");
       peppersFooter.classList.add("peppersFooterOut");
+      peppersFooterBackText.classList.toggle("hide");
       setTimeout( function(){
         peppersFooter.classList.add("hide");
           }, 1100);
@@ -231,6 +261,9 @@ contactSection.classList.toggle("hide");
 contactFooter.classList.remove("contactFooterOut");
 contactFooter.classList.add("contactFooterIn");
 contactFooter.classList.toggle("hide");
+setTimeout( function(){
+  contactFooterBackText.classList.toggle("hide");
+}, 2500);
 
 });
 
@@ -251,6 +284,7 @@ contactFooterBack.addEventListener("click", function() {
 
       contactFooter.classList.remove("contactFooterOn");
       contactFooter.classList.add("contactFooterOut");
+      contactFooterBackText.classList.toggle("hide");
       setTimeout( function(){
         contactFooter.classList.add("hide");
           }, 1100);
@@ -274,6 +308,9 @@ fertilizingSection.classList.toggle("hide");
 fertilizingFooter.classList.remove("fertilizingFooterOut");
 fertilizingFooter.classList.add("fertilizingFooterIn");
 fertilizingFooter.classList.toggle("hide");
+setTimeout( function(){
+  fertilizingFooterBackText.classList.toggle("hide");
+}, 2500);
 
 });
 
@@ -294,6 +331,7 @@ fertilizingFooterBack.addEventListener("click", function() {
 
       fertilizingFooter.classList.remove("fertilizingFooterOn");
       fertilizingFooter.classList.add("fertilizingFooterOut");
+      fertilizingFooterBackText.classList.toggle("hide");
       setTimeout( function(){
         fertilizingFooter.classList.add("hide");
           }, 1100);
@@ -303,5 +341,52 @@ fertilizingFooterBack.addEventListener("click", function() {
           }, 1200);
 });
 
+
+spices.addEventListener("click", function(){
+  mainPageOut();
+
+spicesHeader.classList.remove("spicesHeaderOut");
+spicesHeader.classList.add("spicesHeaderIn");
+spicesHeader.classList.toggle("hide");
+
+spicesSection.classList.remove("spicesSectionOut");
+spicesSection.classList.add("spicesSectionIn");
+spicesSection.classList.toggle("hide");
+
+spicesFooter.classList.remove("spicesFooterOut");
+spicesFooter.classList.add("spicesFooterIn");
+spicesFooter.classList.toggle("hide");
+setTimeout( function(){
+  spicesFooterBackText.classList.toggle("hide");
+}, 2500);
+
+});
+
+spicesFooterBack.addEventListener("click", function() {
+   console.log("click");
+
+  spicesHeader.classList.remove("spicesHeaderIn");
+  spicesHeader.classList.add("spicesHeaderOut");
+   setTimeout( function(){
+     spicesHeader.classList.add("hide");
+       }, 1100);
+
+  spicesSection.classList.remove("spicesSectionOn");
+  spicesSection.classList.add("spicesSectionOut");
+  setTimeout( function(){
+    spicesSection.classList.add("hide");
+      }, 1100);
+
+      spicesFooter.classList.remove("spicesFooterOn");
+      spicesFooter.classList.add("spicesFooterOut");
+      spicesFooterBackText.classList.toggle("hide");
+      setTimeout( function(){
+        spicesFooter.classList.add("hide");
+          }, 1100);
+
+          setTimeout( function(){
+            mainPageIn();
+          }, 1200);
+});
 
 }); // DOMContentLoaded

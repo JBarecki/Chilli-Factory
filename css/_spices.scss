@@ -1,0 +1,200 @@
+@import "mixins";
+/* *************** SPICES HEADER ******************** */
+.spicesHeader {
+  @include header;
+  @include imageContain;
+}
+
+.spicesTitle {
+  @include headerTitle;
+}
+
+.spicesHeaderPeppers {
+  @include headerPeppers;
+}
+
+.spicesTitleText {
+  @include headerText;
+  position: absolute;
+    top: 35%;
+    left: 36%;
+}
+
+/* ********* SPICES HEADER ANIMATIONS *************** */
+
+.spicesHeaderIn {
+  animation: spicesHeaderIn 2.3s 1.4s ease-out both;
+}
+
+.spicesHeaderOut {
+  animation: spicesHeaderOut 1.5s 0.1s ease-out both;
+}
+
+.spicesTitleTextIn {
+  animation: spicesTitleTextIn 2.5s 3s ease-out both;
+}
+
+/* *************** SPICES SECTION ******************** */
+
+.spicesSection {
+  width: 100;
+  height: 50%;
+  @include spicesSectionGradient;
+  position: relative;
+}
+
+.spicesImage {
+   transform: rotate(45deg);
+   border: 0.8rem solid white;
+    display: inline;
+    float: left;
+    position: absolute;
+}
+
+.img1 {
+    top: -3%;
+    left: 27.5%;
+  width: 12rem;
+  height: 12rem;
+  background-image: url("../images/powder2.jpg");
+    background-size: cover;
+}
+
+.img1 p {
+  @include spicesPar;
+    top: 8%;
+    left: -97%;
+}
+
+.img2 {
+    top: 1%;
+    left: 13%;
+  width: 17rem;
+  height: 17rem;
+  background-image: url("../images/salsa1.jpg");
+  @include imageContain;
+}
+
+.img2 p {
+  @include spicesPar;
+  transform: rotate(-45deg);
+    top: 8%;
+    left: -97%;
+}
+
+
+.img3 {
+    top: 63%;
+    left: 27.5%;
+  width: 12rem;
+  height: 12rem;
+  background-image: url("../images/flakes1.jpg");
+    background-size: cover;
+}
+
+.img3 p {
+  @include spicesPar;
+  transform: rotate(-90deg);
+    top: 8%;
+    left: -97%;
+}
+
+.img4 {
+    top: 10%;
+    left: 38.5%;
+  width: 25rem;
+  height: 25rem;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.img4 p {
+  @include spicesPar;
+    top: 8%;
+    left: -97%;
+}
+
+.img5 {
+    top: -3%;
+    left: 60.5%;
+  width: 12rem;
+  height: 12rem;
+  background-color: blue;
+}
+
+.img5 p {
+  @include spicesPar;
+    transform: rotate(90deg);
+    top: 8%;
+    left: -97%;
+}
+
+.img6 {
+    top: 22.5%;
+    left: 70.5%;
+  width: 17rem;
+  height: 17rem;
+  background-color: darkblue;
+}
+
+.img6 p {
+  @include spicesPar;
+    transform: rotate(-45deg);
+    top: 8%;
+    left: -97%;
+}
+
+.img7 {
+  background-image: url("../images/pickle1.jpg");
+  @include imageContain;
+    top: 63%;
+    left: 60.5%;
+  width: 12rem;
+  height: 12rem;
+}
+
+.img7 p {
+  @include spicesPar;
+    top: 8%;
+    left: -97%;
+}
+
+/* ********** SPICES SECTION ANIMATIONS ************** */
+
+.spicesSectionIn {
+  animation: spicesSectionIn 1.7s 1.3s ease-out both;
+}
+
+
+/* *************** SPICES FOOTER ******************** */
+.spicesFooter {
+  @include Footer;
+  @include imageContain;
+  position: relative;
+}
+
+.spicesFooterBack {
+  background-image: url("../images/habaneros1.jpg");
+  @include FooterBack;
+}
+
+.spicesFooterBackText {
+@include FooterBackText;
+position: absolute;
+  top: 33%;
+  left: 20%;
+}
+
+/* ********** SPICES FOOTER ANIMATIONS ************** */
+
+.spicesFooterIn {
+  animation: spicesFooterIn 1.7s 1.3s ease-out both;
+}
+
+.spicesFooterBackIn {
+  animation: spicesFooterBackIn 2.7s 0.1s ease-out both;
+}
+
+.spicesFooterOut {
+  animation: spicesFooterOut 1.5s 0.1s ease-out both;
+}
