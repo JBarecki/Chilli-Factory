@@ -52,8 +52,8 @@
 }
 
 .img1 {
-    top: -3%;
-    left: 27.5%;
+    top: -2.5%;
+    left: 26.8%;
   width: 12rem;
   height: 12rem;
   background-image: url("../images/powder2.jpg");
@@ -67,35 +67,36 @@
 }
 
 .img2 {
-    top: 1%;
-    left: 13%;
+    top: 22.5%;
+    left: 12%;
   width: 17rem;
   height: 17rem;
   background-image: url("../images/salsa1.jpg");
-  @include imageContain;
+  background-size: cover;
+  background-position: center;
 }
 
 .img2 p {
   @include spicesPar;
   transform: rotate(-45deg);
-    top: 8%;
-    left: -97%;
+    top: 99%;
+    left: -54%;
 }
 
 .img3 {
-    top: 63%;
-    left: 27.5%;
+    top: 64.5%;
+    left: 26.7%;
   width: 12rem;
   height: 12rem;
   background-image: url("../images/flakes1.jpg");
-    @include imageContain;
+  background-size: cover;
 }
 
 .img3 p {
   @include spicesPar;
   transform: rotate(-90deg);
-    top: 8%;
-    left: -97%;
+    top: 111%;
+    left: 17%;
 }
 
 .img4 {
@@ -104,7 +105,8 @@
   width: 25rem;
   height: 25rem;
   margin: 0 auto;
-  background-color: black;
+  background-image: url("../images/spicesPeppers.jpg");
+  background-size: cover;
 }
 
 .img4 p {
@@ -114,54 +116,92 @@
 }
 
 .img5 {
-    top: -3%;
-    left: 60.5%;
+    top: -2.5%;
+    left: 61.3%;
   width: 12rem;
   height: 12rem;
-  background-color: blue;
+  background-image: url("../images/sambal.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .img5 p {
   @include spicesPar;
-    transform: rotate(90deg);
-    top: 8%;
-    left: -97%;
+    transform: rotate(-90deg);
+    top: -100%;
+    left: 11%;
 }
 
 .img6 {
-    top: 22.5%;
-    left: 70.5%;
+    top: 22.7%;
+    left: 71.5%;
   width: 17rem;
   height: 17rem;
-  background-color: darkblue;
+  background-image: url("../images/habaneroSauce.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .img6 p {
   @include spicesPar;
     transform: rotate(-45deg);
-    top: 8%;
-    left: -97%;
+    top: -61%;
+    left: 106%;
 }
 
 .img7 {
+    top: 64.5%;
+    left: 61.3%;
   background-image: url("../images/pickle1.jpg");
-  @include imageContain;
-    top: 63%;
-    left: 60.5%;
+  background-size: cover;
+  background-position: center;
   width: 12rem;
   height: 12rem;
 }
 
 .img7 p {
   @include spicesPar;
-    top: 8%;
-    left: -97%;
+    top: 7%;
+    left: 117%;
 }
 
 /* ********** SPICES SECTION ANIMATIONS ************** */
 
 .spicesSectionIn {
-  animation: spicesSectionIn 1.7s 1.3s ease-out both;
+  animation: spicesSectionIn 1.7s 1s ease-out both;
+}
+
+.spicesSectionOut {
+  animation: spicesSectionOut 1.2s 1s ease-out both;
+}
+
+.img1In {
+  animation: img1In 1.5s 3.8s ease-out both;
+}
+
+.img2In {
+  animation: img2In 1.7s 2.6s ease-out both;
+}
+
+.img3In {
+  animation: img3In 1.6s 4.1s ease-out both;
+}
+
+.img5In {
+  animation: img5In 1.5s 3.8s ease-out both;
+}
+
+.img6In {
+  animation: img6In 1.7s 2.6s ease-out both;
+}
+
+.img7In {
+  animation: img7In 1.6s 4.1s ease-out both;
+}
+
+.spicesTextIn {
+  animation: spicesTextIn 1.6s 4.8s ease-out both;
+
 }
 
 
@@ -173,7 +213,7 @@
 }
 
 .spicesFooterBack {
-  background-image: url("../images/habaneros1.jpg");
+  background-image: url("../images/spices1.jpg");
   @include FooterBack;
 }
 
