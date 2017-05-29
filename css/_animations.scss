@@ -536,14 +536,6 @@ transform: scale(1) rotate(45deg);
   }
 }
 
-@keyframes contactTitleTextIn {
-  0% {
-   color: transparent;
- }
-  100% {
-  color: black;
-  }
-}
 
 @keyframes contactHeaderOut {
   0% {
@@ -580,7 +572,7 @@ transform: scale(1) rotate(45deg);
    transform: translate(0, 0);
  }
   100% {
-  transform: translate(0, -26%) scale(0.60);
+  transform: translate(0, -26%) scale(0.6);
   }
 }
 
@@ -603,7 +595,8 @@ transform: scale(1) rotate(45deg);
 
 @keyframes contactFooterOut {
   0% {
-   transform: translate(0, -47%);
+   transform: translate(0, -26%) scale(0.6);
+
  }
   100% {
   transform: translate(300%, 0) scale(0.1);
