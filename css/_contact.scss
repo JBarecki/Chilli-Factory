@@ -38,65 +38,63 @@
   position: relative;
 }
 
-.contactSectionLeft {
-  width: 36%;
-  margin: 2%;
-  display: inline;
-  float: left;
-}
+form {
+  z-index: 2;
 
-.contactSectionRight {
-  width: 35%;
-  margin: 2%;
-  display: inline;
-    float: left;
 }
 
 input {
   font-family:'Passion One', sans-serif;
-  width: 100%;
-  height: 3.6rem;
-  display: inline;
-  border: 3px solid red;
+  width: 40%;
+  height: 3rem;
+  display: block;
+  border: 5px solid lightgrey;
   letter-spacing: 0.05em;
-  margin-bottom: 3.5%;
+  margin: 0 auto;
+  margin-bottom: 1%;
   color: lightgrey;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   font-weight: 300;
+  z-index: 1;
 }
 
 textarea {
   font-family:'Passion One', sans-serif;
-  width: 100%;
-  height: 20rem;
-  font-size: 1.9rem;
+  width: 40%;
+  height: 15%;
+  font-size: 1.5rem;
+  margin: 0 auto;
   letter-spacing: 0.05em;
-  border: 3px solid red;
+  border: 5px solid lightgrey;
   color: lightgrey;
-  display: inline;
+  display: block;
+  z-index: 1;
 }
 
 .contactButon {
-   width: 16rem;
+   width: 23rem;
    height: 3.5rem;
    background-color: red;
    font-size: 2rem;
+   border: 5px solid white;
    color: white;
    font-family:'Passion One', sans-serif;
    font-weight: 500;
    margin: 0 auto;
    position: absolute;
-     top: 52.5%;
+     top: 91%;
+     left: 40%
 }
 
 .contactSectionImage {
   background-image: url("../images/chillis3.jpg");
+  z-index: 0;
   width: 16rem;
   height: 16rem;
   @include imageContain;
   position: absolute;
-    top: 3%;
-    left: 78%;
+    top: 72%;
+    left: 43%;
 }
 
 /* *************  CONTACT SECTION ANIMATION CLASSES ************** */
